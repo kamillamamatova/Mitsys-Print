@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
+# Auto detects text files and perform LF normalization
 * text=auto
+
+# Treats JSON, YAML, and scripts as text so diffs are readable
+*.yy text
+*.yyp text
+*.yymps text
+*.json text
+*.yml text
+*.yaml text
+*.gml text
+
+# Treats images, audio, and binaries as binary (no diffing)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.ttf binary
+*.otf binary
+
+# Ignores line ending normalization for binaries
+*.exe binary
+*.dll binary
+*.zip binary
+*.tar binary
+*.gz binary
