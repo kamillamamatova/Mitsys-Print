@@ -1,0 +1,18 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# GameMaker build artifacts
+*.yyz
+*.yymps
+build/
+*/_cache/
+*_backup.yy
+*_local.yy
+
+# IDE folders
+.idea/
+.vscode/
+*.iml
