@@ -1,4 +1,4 @@
-// Directional movement with arrow keys or WASD
+/* Directional movement with arrow keys or WASD
 
 right_key = keyboard_check(vk_right) || keyboard_check(ord("D"));
 left_key = keyboard_check(vk_left) || keyboard_check(ord("A"));
