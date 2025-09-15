@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "spr_player_down",
+  "name": "spr_aribel",
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_aribel_down",
+    "path": "sprites/spr_aribel_down/spr_aribel_down.yy",
   },
   "solid": false,
   "visible": true,
