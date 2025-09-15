@@ -11,7 +11,7 @@
     {"id":{"name":"spr_aribel_left","path":"sprites/spr_aribel_left/spr_aribel_left.yy",},"order":4,},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},"order":1,},
     {"id":{"name":"spr_aribel_right","path":"sprites/spr_aribel_right/spr_aribel_right.yy",},"order":3,},
-    {"id":{"name":"spr_aribel","path":"objects/spr_aribel/spr_aribel.yy",},"order":0,},
+    {"id":{"name":"obj_aribel","path":"objects/obj_aribel/obj_aribel.yy",},"order":0,},
     {"id":{"name":"obj_fairy","path":"objects/obj_fairy/obj_fairy.yy",},"order":2,},
     {"id":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},"order":1,},
     {"id":{"name":"spr_aribel_down","path":"sprites/spr_aribel_down/spr_aribel_down.yy",},"order":0,},
