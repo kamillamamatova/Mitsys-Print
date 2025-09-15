@@ -9,20 +9,13 @@ down_key = keyboard_check(vk_down) || keyboard_check(ord("S"));
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
 
-/* For collision
-if place_meeting(x + xspd, y, _){
-	xspd = 0;
-}
-if place_meeting(x, y + yspd, _){
-	yspd = 0;
-}
-*/
-
 // Moves the player
 x += xspd;
 y += yspd;
 
 // Sets sprite
+mask_index = sprite[DOWN]
+
 if yspd == 0{
 	if xspd > 0{ face = RIGHT;}
 	if xspd < 0{ face = LEFT;}
@@ -40,3 +33,17 @@ if yspd > 0 && face = UP{ face = DOWN};
 if yspd < 0 && face = DOWN{ face = UP};
 
 sprite_index = sprite[face];
+
+/* For collision
+if place_meeting(x + xspd, y, _){
+	xspd = 0;
+}
+if place_meeting(x, y + yspd, _){
+	yspd = 0;
+}
+*/
+
+// Animates
+if xspd == 0 && yspd == 0{
+	image_index = 0;
+}
