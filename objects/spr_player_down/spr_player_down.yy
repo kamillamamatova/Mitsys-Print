@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_aribel",
+  "name": "spr_player_down",
   "spriteId": {
     "name": "spr_player",
     "path": "sprites/spr_player/spr_player.yy",
