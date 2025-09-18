@@ -34,14 +34,13 @@ if yspd < 0 && face = DOWN{ face = UP};
 
 sprite_index = sprite[face];
 
-/* For collision
+// For collision
 if place_meeting(x + xspd, y, _){
 	xspd = 0;
 }
 if place_meeting(x, y + yspd, _){
 	yspd = 0;
 }
-*/
 
 // Animates
 if xspd == 0 && yspd == 0{
