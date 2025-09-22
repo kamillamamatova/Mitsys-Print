@@ -35,10 +35,10 @@ if yspd < 0 && face = DOWN{ face = UP};
 sprite_index = sprite[face];
 
 // For collision
-if place_meeting(x + xspd, y, _){
+if place_meeting(x + xspd, y, obj_aribel){
 	xspd = 0;
 }
-if place_meeting(x, y + yspd, _){
+if place_meeting(x, y + yspd, obj_aribel){
 	yspd = 0;
 }
 
