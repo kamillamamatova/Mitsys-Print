@@ -10,6 +10,8 @@
     {"id":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":3,},
     {"id":{"name":"ts_exterior_tiles","path":"tilesets/ts_exterior_tiles/ts_exterior_tiles.yy",},"order":0,},
+    {"id":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},"order":1,},
+    {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":4,},
     {"id":{"name":"spr_aribel_left","path":"sprites/spr_aribel_left/spr_aribel_left.yy",},"order":4,},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},"order":1,},
     {"id":{"name":"spr_aribel_right","path":"sprites/spr_aribel_right/spr_aribel_right.yy",},"order":3,},
@@ -17,6 +19,7 @@
     {"id":{"name":"spr_exterior_tiles","path":"sprites/spr_exterior_tiles/spr_exterior_tiles.yy",},"order":6,},
     {"id":{"name":"obj_fairy","path":"objects/obj_fairy/obj_fairy.yy",},"order":2,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":7,},
+    {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":8,},
     {"id":{"name":"spr_aribel_down","path":"sprites/spr_aribel_down/spr_aribel_down.yy",},"order":0,},
   ],
   "Options": [
@@ -38,6 +41,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
+    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
