@@ -29,8 +29,8 @@ if xspd = 0{
 	if yspd < 0{ face = UP;}
 }
 
-if yspd > 0 && face = UP{ face = DOWN};
-if yspd < 0 && face = DOWN{ face = UP};
+if yspd > 0 && face == UP{ face = DOWN};
+if yspd < 0 && face == DOWN{ face = UP};
 
 sprite_index = sprite[face];
 
