@@ -40,8 +40,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
+    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
