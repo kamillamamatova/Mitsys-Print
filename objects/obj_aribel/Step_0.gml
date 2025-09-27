@@ -5,10 +5,21 @@ left_key = keyboard_check(vk_left) || keyboard_check(ord("A"));
 up_key = keyboard_check(vk_up) || keyboard_check(ord("W"));
 down_key = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
+//shift for increased speed if shift is pressed
+if (keyboard_check(vk_shift)) {move_spd +=4}
+
+
 // Gets xspd and yspd
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
 
+// For collision
+if place_meeting(x + xspd, y, obj_wall){
+	xspd = 0;
+}
+if place_meeting(x, y + yspd, obj_wall){
+	yspd = 0;
+}
 // Moves the player
 x += xspd;
 y += yspd;
@@ -34,15 +45,11 @@ if yspd < 0 && face == DOWN{ face = UP};
 
 sprite_index = sprite[face];
 
-// For collision
-if place_meeting(x + xspd, y, obj_aribel){
-	xspd = 0;
-}
-if place_meeting(x, y + yspd, obj_aribel){
-	yspd = 0;
-}
-
 // Animates
 if xspd == 0 && yspd == 0{
 	image_index = 0;
+	
 }
+
+//reset move speed
+move_spd = 3;
