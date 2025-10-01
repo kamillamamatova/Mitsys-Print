@@ -54,4 +54,5 @@ if xspd == 0 && yspd == 0{
 //reset move speed
 move_spd = 3;
 
-
+// Depth
+depth = -bbox_bottom;
