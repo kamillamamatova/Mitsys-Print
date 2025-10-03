@@ -1,7 +1,7 @@
 xspd = 0;
 yspd = 0;
 
-move_spd = 3;
+move_spd = 2;
 
 sprite[RIGHT] = spr_aribel_right;
 sprite[UP] = spr_aribel_up;
