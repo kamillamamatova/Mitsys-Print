@@ -25,6 +25,7 @@
     {"id":{"name":"spr_aribel_left","path":"sprites/spr_aribel_left/spr_aribel_left.yy",},"order":4,},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},"order":1,},
     {"id":{"name":"spr_aribel_right","path":"sprites/spr_aribel_right/spr_aribel_right.yy",},"order":3,},
+    {"id":{"name":"bg_testing","path":"sprites/bg_testing/bg_testing.yy",},"order":21,},
     {"id":{"name":"obj_aribel","path":"objects/obj_aribel/obj_aribel.yy",},"order":4,},
     {"id":{"name":"spr_exterior_tiles","path":"sprites/spr_exterior_tiles/spr_exterior_tiles.yy",},"order":6,},
     {"id":{"name":"obj_fairy","path":"objects/obj_fairy/obj_fairy.yy",},"order":1,},
