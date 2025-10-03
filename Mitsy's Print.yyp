@@ -6,6 +6,7 @@
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},"order":0,},
     {"id":{"name":"spr_fairy","path":"sprites/spr_fairy/spr_fairy.yy",},"order":2,},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},"order":0,},
+    {"id":{"name":"spr_aribel","path":"sprites/spr_aribel/spr_aribel.yy",},"order":17,},
     {"id":{"name":"spr_chair_left","path":"sprites/spr_chair_left/spr_chair_left.yy",},"order":13,},
     {"id":{"name":"spr_aribel_up","path":"sprites/spr_aribel_up/spr_aribel_up.yy",},"order":5,},
     {"id":{"name":"spr_interior_tiles","path":"sprites/spr_interior_tiles/spr_interior_tiles.yy",},"order":9,},
