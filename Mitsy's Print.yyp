@@ -15,6 +15,7 @@
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":19,},
     {"id":{"name":"spr_interior_tiles","path":"sprites/spr_interior_tiles/spr_interior_tiles.yy",},"order":9,},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},"order":12,},
+    {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":27,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"ts_exterior_tiles","path":"tilesets/ts_exterior_tiles/ts_exterior_tiles.yy",},"order":0,},
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":10,},
