@@ -19,6 +19,7 @@
     {"id":{"name":"ts_exterior_tiles","path":"tilesets/ts_exterior_tiles/ts_exterior_tiles.yy",},"order":0,},
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":10,},
     {"id":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},"order":0,},
+    {"id":{"name":"spr_border_carpet","path":"sprites/spr_border_carpet/spr_border_carpet.yy",},"order":26,},
     {"id":{"name":"spr_aribel_up","path":"sprites/spr_aribel_up/spr_aribel_up.yy",},"order":25,},
     {"id":{"name":"spr_clock","path":"sprites/spr_clock/spr_clock.yy",},"order":11,},
     {"id":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},"order":1,},
