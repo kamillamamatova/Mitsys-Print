@@ -7,4 +7,7 @@ var _camy = camera_get_view_y(view_camera[0]);
 var _p = 1;
 
 draw_sprite_tiled(bg_testing, 0, _camx * _p, _camy * _p);
-draw_sprite_tiled(bg_testing, 1, _camx * .0025, _camy * .0025);
+draw_sprite_tiled(bg_testing, 1, _camx * .25, _camy * .25);
+//draw_sprite_tiled(bg_testing, 2, _camx * .025, _camy * .025);
+//draw_sprite_tiled(bg_testing, 3, _camx * .0025, _camy * .0025);
+//draw_sprite_tiled(bg_testing, 4, _camx * .00025, _camy * .00025);
