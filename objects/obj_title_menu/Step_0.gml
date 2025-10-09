@@ -1,7 +1,8 @@
-// Draws the menu background
-draw_sprite_ext(sprite_index, image_index, x, y, width / sprite_width, height / sprite_height, 0, c_white, 1);
+// Gets inputs
+up_key = keyboard_check_pressed(vk_up);
+down_key = keyboard_check_pressed(vk_down);
 
-// Draws the options
-draw_set_font(global.font_main);
-draw_set_valign(fa.top);
-draw_set_halign(fa.left);
+// Moves through the menu
+pos += down_key - up_key;
+if pos >= op_length{ pos = 0};
+if pos < 0{ pos = op_length - 1};
