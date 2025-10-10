@@ -34,6 +34,7 @@
     {"id":{"name":"spr_aribel_up","path":"sprites/spr_aribel_up/spr_aribel_up.yy",},"order":25,},
     {"id":{"name":"spr_clock","path":"sprites/spr_clock/spr_clock.yy",},"order":11,},
     {"id":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},"order":1,},
+    {"id":{"name":"rm_alice","path":"rooms/rm_alice/rm_alice.yy",},"order":3,},
     {"id":{"name":"spr_chair_right","path":"sprites/spr_chair_right/spr_chair_right.yy",},"order":14,},
     {"id":{"name":"spr_fountain","path":"sprites/spr_fountain/spr_fountain.yy",},"order":28,},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":3,},
@@ -82,6 +83,7 @@
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_alice","path":"rooms/rm_alice/rm_alice.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
