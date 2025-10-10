@@ -58,6 +58,7 @@
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"order":3,},
     {"id":{"name":"ts_interior_tiles","path":"tilesets/ts_interior_tiles/ts_interior_tiles.yy",},"order":1,},
     {"id":{"name":"obj_clock","path":"objects/obj_clock/obj_clock.yy",},"order":6,},
+    {"id":{"name":"rm_alice","path":"rooms/rm_alice/rm_alice.yy",},"order":3,},
     {"id":{"name":"spr_main_font","path":"sprites/spr_main_font/spr_main_font.yy",},"order":28,},
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"order":10,},
   ],
@@ -82,6 +83,7 @@
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_alice","path":"rooms/rm_alice/rm_alice.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
