@@ -53,6 +53,7 @@
     {"id":{"name":"spr_exterior_tiles1","path":"sprites/spr_exterior_tiles1/spr_exterior_tiles1.yy",},"order":16,},
     {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},"order":16,},
     {"id":{"name":"spr_carpet","path":"sprites/spr_carpet/spr_carpet.yy",},"order":15,},
+    {"id":{"name":"spr_main_font_for_testing","path":"sprites/spr_main_font_for_testing/spr_main_font_for_testing.yy",},"order":33,},
     {"id":{"name":"obj_chair_left","path":"objects/obj_chair_left/obj_chair_left.yy",},"order":8,},
     {"id":{"name":"obj_bookshelf","path":"objects/obj_bookshelf/obj_bookshelf.yy",},"order":5,},
     {"id":{"name":"obj_parallax_background","path":"objects/obj_parallax_background/obj_parallax_background.yy",},"order":11,},
@@ -86,9 +87,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
-    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
