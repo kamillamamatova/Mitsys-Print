@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_misty",
   "spriteId": {
-    "name": "spr_misty_down",
-    "path": "sprites/spr_misty_down/spr_misty_down.yy",
+    "name": "spr_misty_right",
+    "path": "sprites/spr_misty_right/spr_misty_right.yy",
   },
   "solid": false,
   "visible": true,
