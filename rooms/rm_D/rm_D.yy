@@ -1,12 +1,12 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_B",
+  "name": "rm_D",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": {
-    "name": "rm_A",
-    "path": "rooms/rm_A/rm_A.yy",
+    "name": "rm_C",
+    "path": "rooms/rm_C/rm_C.yy",
   },
   "views": [
     {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":384,"hview":288,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
