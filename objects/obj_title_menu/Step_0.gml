@@ -1,7 +1,7 @@
 // Gets inputs
 up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
-accept_key = keyboard_check(vk_space);
+accept_key = keyboard_check_pressed(vk_space);
 
 // Stores number of options in the current menu
 op_length = array_length(option[menu_level]);
@@ -26,7 +26,7 @@ if accept_key{
 				case 1: menu_level = 1; break;
 				// Quits game
 				case 2: game_end(); break;
-			}
+				}
 			break;
 	
 		// Settings
@@ -48,13 +48,13 @@ if accept_key{
 				case 3:
 					menu_level = 0;
 					break;
+				}
 			break;
-			}
 		}
 		
-		// Sets position back
-		if _sml != menu_level{ pos = 0};
+	// Sets position back
+	if _sml != menu_level{ pos = 0};
 		
-		// The correct option length
-		op_length = array_length(option[menu_level]);
+	// The correct option length
+	op_length = array_length(option[menu_level]);
 }
