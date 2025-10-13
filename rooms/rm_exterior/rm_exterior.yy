@@ -466,6 +466,9 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5352D98A","properties":[],"isDnd":false,"objectId":{"name":"obj_aribel","path":"objects/obj_aribel/obj_aribel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":1376.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B6F8B7F","properties":[],"isDnd":false,"objectId":{"name":"obj_fountain","path":"objects/obj_fountain/obj_fountain.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1143.0,"y":861.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E2CCA52","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"global.welcome_dialog",},
+          ],"isDnd":false,"objectId":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":1376.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","spriteId":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -916,6 +919,7 @@
     {"name":"inst_A943A1","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_DA9239A","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_5B6F8B7F","path":"rooms/rm_exterior/rm_exterior.yy",},
+    {"name":"inst_7E2CCA52","path":"rooms/rm_exterior/rm_exterior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
