@@ -21,6 +21,3 @@ else
 {
    sprite_index = spr_misty_right;
 }
-
-// ending misty's path when she gets to warp
-path_end();
