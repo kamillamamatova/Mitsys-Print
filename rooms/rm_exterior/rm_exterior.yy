@@ -922,6 +922,7 @@
     {"name":"inst_7876896A","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_21F4A6B1","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_58B2E225","path":"rooms/rm_exterior/rm_exterior.yy",},
+    {"name":"inst_58B2E225","path":"rooms/rm_exterior/rm_exterior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

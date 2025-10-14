@@ -8,7 +8,7 @@ up_key = keyboard_check(vk_up) || keyboard_check(ord("W"));
 down_key = keyboard_check(vk_down) || keyboard_check(ord("S"));
 
 //shift for increased speed if shift is pressed
-if (keyboard_check(vk_shift)) {move_spd +=4}
+if (keyboard_check(vk_shift)) {move_spd +=1}
 
 
 // Gets xspd and yspd
