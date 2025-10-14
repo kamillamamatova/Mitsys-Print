@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mazedoor",
+  "name": "obj_maze_cheshire_2",
   "spriteId": {
-    "name": "spr_door",
-    "path": "sprites/spr_door/spr_door.yy",
+    "name": "spr_cheshire_inside_tree40",
+    "path": "sprites/spr_cheshire_inside_tree40/spr_cheshire_inside_tree40.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_warp",
-    "path": "objects/obj_warp/obj_warp.yy",
+    "name": "obj_maze_cheshire",
+    "path": "objects/obj_maze_cheshire/obj_maze_cheshire.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
