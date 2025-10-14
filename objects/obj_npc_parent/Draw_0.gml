@@ -1,16 +1,7 @@
-if(instance_exists(obj_dialog)) exit;
+draw_self();
 
-if(instance_exists(obj_aribel) && distance_to_object(obj_aribel) < 8)
+if(can_talk && !instance_exists(obj_dialog))
 {
-	can_talk = true;
-	if(keyboard_check_pressed(input_key))
-	{
-		startDialogue(dialog);
-	}
+	draw_sprite(spr_talk, 0, x, y - 16);
 }
-else
-{
-	can_talk = false;
-} 
-
 
