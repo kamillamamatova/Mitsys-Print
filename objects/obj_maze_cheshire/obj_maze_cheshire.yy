@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_maze_cheshire",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_cheshire",
+    "path": "sprites/spr_cheshire/spr_cheshire.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
