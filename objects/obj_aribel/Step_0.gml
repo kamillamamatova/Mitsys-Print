@@ -1,6 +1,6 @@
 // Directional movement with arrow keys or WASD
 
-if (instance_exists(obj_dialog)) exit; // Condition to stop player/npc from moving
+//if (instance_exists(obj_dialog)) exit; // Condition to stop player/npc from moving
 
 right_key = keyboard_check(vk_right) || keyboard_check(ord("D"));
 left_key = keyboard_check(vk_left) || keyboard_check(ord("A"));
