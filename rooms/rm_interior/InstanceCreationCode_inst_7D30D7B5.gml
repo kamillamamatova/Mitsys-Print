@@ -1,3 +1,3 @@
-target_x = 522;
-target_y = 912;
+target_x = 540;
+target_y = 801;
 target_rm = rm_0;
