@@ -1,3 +1,3 @@
-target_x = 237;
-target_y = 142;
-target_rm = rm_laby_entrace;
+target_x = 522;
+target_y = 912;
+target_rm = rm_0;
