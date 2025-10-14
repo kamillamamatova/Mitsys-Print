@@ -1,7 +1,7 @@
 // Gets inputs
 up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
-accept_key = keyboard_check_pressed(vk_space);
+accept_key = keyboard_check_pressed(vk_space || vk_enter);
 
 // Stores number of options in the current menu
 op_length = array_length(option[menu_level]);
