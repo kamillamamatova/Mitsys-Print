@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_cheshire_in_tree",
+  "name": "spr_cheshire_on_tree",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -37,7 +37,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_cheshire_in_tree",
+    "name": "spr_cheshire_on_tree",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -49,11 +49,11 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"36907db1-c4a1-4012-8c38-7097779fefc1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72e355fb-073d-4cc9-bb9d-f902e73ceaf7","path":"sprites/spr_cheshire_in_tree/spr_cheshire_in_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"491d9eed-9933-4e1e-a57c-1c048bd5cd22","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3b465a7e-9f8d-441c-b7f4-2af5f2b9c793","path":"sprites/spr_cheshire_in_tree/spr_cheshire_in_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"aad66e85-0682-491c-9727-4385498dfec5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d294ff8-c0de-49df-b735-4aefcab3b0ce","path":"sprites/spr_cheshire_in_tree/spr_cheshire_in_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"2564d603-49b9-4715-ac4a-57bfb0a6c899","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61f547f0-1249-4a7e-b4be-ba786a01e0cc","path":"sprites/spr_cheshire_in_tree/spr_cheshire_in_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"bcba3111-f647-4af6-addb-8c04497ff0a8","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"752ea420-3d68-4d41-867e-a3d5846d96b6","path":"sprites/spr_cheshire_in_tree/spr_cheshire_in_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36907db1-c4a1-4012-8c38-7097779fefc1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72e355fb-073d-4cc9-bb9d-f902e73ceaf7","path":"sprites/spr_cheshire_on_tree/spr_cheshire_on_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"491d9eed-9933-4e1e-a57c-1c048bd5cd22","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3b465a7e-9f8d-441c-b7f4-2af5f2b9c793","path":"sprites/spr_cheshire_on_tree/spr_cheshire_on_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"aad66e85-0682-491c-9727-4385498dfec5","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d294ff8-c0de-49df-b735-4aefcab3b0ce","path":"sprites/spr_cheshire_on_tree/spr_cheshire_on_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2564d603-49b9-4715-ac4a-57bfb0a6c899","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61f547f0-1249-4a7e-b4be-ba786a01e0cc","path":"sprites/spr_cheshire_on_tree/spr_cheshire_on_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bcba3111-f647-4af6-addb-8c04497ff0a8","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"752ea420-3d68-4d41-867e-a3d5846d96b6","path":"sprites/spr_cheshire_on_tree/spr_cheshire_on_tree.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
