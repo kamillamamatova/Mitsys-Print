@@ -36,6 +36,8 @@
   ],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_rm","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"noone",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_x","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"550",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_y","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"550",},
   ],
   "parent": {
     "name": "maze_objects",

@@ -12,6 +12,13 @@ char_colors = {
 	"Cheshire" : c_orange
 }
 
+laugh_cat = [
+{ 
+	name: "Cheshire",
+	msg: "Heh heh heh."
+}
+]
+
 rm0_dialog = [
 { 
 	name: "Cheshire",
@@ -21,6 +28,16 @@ rm0_dialog = [
 { 
 	name: "Cheshire",
 	msg: "To leave, you must go through the right door in each room..."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "If you pick the wrong door, you will know...(Cackle, Cackle)"
+},
+
+{ 
+	name: "Cheshire",
+	msg: "Make the wrong decision twice...and you will be back to where you started"
 },
 
 { 

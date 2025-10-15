@@ -15,5 +15,5 @@ else
 }
 
 
-//obj_aribel.x = target_x;
-//obj_aribel.y = target_y;
+obj_aribel.x = target_x;
+obj_aribel.y = target_y;
