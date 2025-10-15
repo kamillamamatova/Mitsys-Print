@@ -1,47 +1,21 @@
-// Get input
-var confirm = keyboard_check_pressed(confirm_key);
+if (current_message < 0) exit;
 
-// Type out the text
-text_progress = min(text_progress + text_speed, text_length);
+var _str = messages[current_message].msg;
 
-// Ignore inputs when delay is active
-if (input_delay > 0) {
-	input_delay--;
-	exit;
+if (current_char < string_length(_str))
+{
+	current_char += char_speed * (1 + real(keyboard_check(input_key)));
+	draw_message = string_copy(_str, 0, current_char);
 }
-
-// Are we finished typing?
-if (text_progress == text_length) {
-	if (option_count > 0) {
-		var up = keyboard_check_pressed(up_key);
-		var down = keyboard_check_pressed(down_key);
-		
-		// Cycle through available options
-		var change = down - up;
-		if (change != 0) {
-			current_option += change;
-		
-			// Wrap to first and last option
-			if (current_option < 0)
-				current_option = option_count - 1;
-			else if (current_option >= option_count)
-				current_option = 0;
-		}
-		
-		// Select an option!
-		if (confirm) {
-			var option = options[current_option];
-			options = [];
-			option_count = 0;
-			
-			option.act(id);
-		}
+else if (keyboard_check_pressed(input_key))
+{
+	current_message++;
+	if (current_message >= array_length(messages))
+	{
+		instance_destroy();
 	}
-	else if (confirm) {
-		next();
+	else
+	{
+		current_char = 0;
 	}
 }
-else if (confirm) {
-	text_progress = text_length;
-}
-

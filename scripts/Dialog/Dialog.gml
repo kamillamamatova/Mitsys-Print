@@ -1,46 +1,45 @@
-
 function create_dialog(_messages){
-	if(instance_exists(obj_dialog)) return;
+	if (instance_exists(obj_dialog)) return;
 	
 	var _inst = instance_create_depth(0, 0, 0, obj_dialog);
 	_inst.messages = _messages;
-	_inst.current_message = 0;
+	_inst.current_message =0;
 }
+
 
 char_colors = {
-	"Aribel": c_navy,
-	"Bluewy": c_aqua,
-	"Cheshire Cat" : c_orange,
+	"Aribel" : c_aqua,
+	"Cheshire" : c_orange
 }
 
-
-
-
-welcome_dialog = [
-{
-	name: "Bluewy",
-	msg: "Press space to dialogue."
+rm0_dialog = [
+{ 
+	name: "Cheshire",
+	msg: "Welcome to the Ambigous Maze.."
 },
 
-{
-	name: "Aribel",
-	msg: "It is working!"
+{ 
+	name: "Cheshire",
+	msg: "To leave, you must go through the right door in each room..."
 },
 
-{
-	name: "Bluewy",
-	msg: "Letss goo!"
+{ 
+	name: "Cheshire",
+	msg: "But don't worry, I'll help you out... "
 },
 
-{
-	name: "Aribel",
-	msg: "...."
+{ 
+	name: "Cheshire",
+	msg: "(Tee hee hee.)"
 },
-]
 
-ches_diag1 = [
-{
-	name: "Cheshire Cat",
-	msg: "To continue on this journey, you need to answer this question."
-}
+{ 
+	name: "Cheshire",
+	msg: "First clue..."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "Let the eyes of the maze choose the door..."
+},
 ]
