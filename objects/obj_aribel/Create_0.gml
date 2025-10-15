@@ -10,3 +10,7 @@ sprite[DOWN] = spr_aribel_down;
 
 // Initial direction of Aribel
 face = DOWN;
+
+if (!variable_global_exists("previous_rm")) {
+    global.previous_rm = rm_0;
+}
