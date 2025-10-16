@@ -33,6 +33,7 @@
     {"name":"inst_7A9FF780","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_78E671DC","path":"rooms/rm_title_screen/rm_title_screen.yy",},
     {"name":"inst_76FD1FF9","path":"rooms/rm_title_screen/rm_title_screen.yy",},
+    {"name":"inst_5F15A633","path":"rooms/rm_title_screen/rm_title_screen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

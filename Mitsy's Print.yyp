@@ -162,10 +162,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_prologue","path":"rooms/rm_prologue/rm_prologue.yy",},},
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
+    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_0","path":"rooms/rm_0/rm_0.yy",},},
     {"roomId":{"name":"rm_A","path":"rooms/rm_A/rm_A.yy",},},
     {"roomId":{"name":"rm_B","path":"rooms/rm_B/rm_B.yy",},},
