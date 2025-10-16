@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_prologue_controller",
+  "name": "obj_rules_controller",
   "spriteId": null,
   "solid": false,
   "visible": true,

@@ -13,9 +13,9 @@ var my_text = "On a journey to find answers, Aribel and her cat Misty stumble up
 var line_spacing = 35;
 
 // max width to wrap text
-var max_width = 1000;
+var max_width = 630;
 
 // actually drawing the text
-draw_text_ext(200, 300, my_text, line_spacing, max_width);
+draw_text_ext(200, 290, my_text, line_spacing, max_width);
 
-draw_text(425, 450, "(Press the space bar to continue)");
+draw_text(350, 530, "(Press enter to continue)");
