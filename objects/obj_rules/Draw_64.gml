@@ -10,7 +10,7 @@ draw_set_color(c_yellow);
 var goal = "Goal: Solve the puzzles found in each of the 4 levels (books) to find Misty and escape the library.";
 
 // controls
-var controls = "Play as Aribel and move throughout the game using either the arrow keys or WASD";
+var controls = "Play in a 3rd POV as Aribel, and press the arrow keys or WASD to navigate";
 
 // line space between each line
 var line_spacing = 35;
