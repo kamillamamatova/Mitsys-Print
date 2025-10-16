@@ -7,7 +7,7 @@ draw_set_font(fnt_prologue);
 draw_set_color(c_yellow);
 
 // text
-var my_text = "On a journey to find answers, Aribel and her cat Misty stumble upon an enchanted forest. Something triggers Misty to go to the library, however, she's too fast. Aribel must to catch up to Misty before she loses her.";
+var my_text = "On a journey to find answers, Aribel and her cat Misty stumble upon an enchanted forest. Something triggers Misty to go to the library, however, she's too fast. Aribel must catch up to Misty before she loses her.";
 
 // line space between each line
 var line_spacing = 35;
