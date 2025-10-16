@@ -123,6 +123,7 @@
     {"id":{"name":"obj_parallax_background","path":"objects/obj_parallax_background/obj_parallax_background.yy",},"order":10,},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},"order":6,},
     {"id":{"name":"obj_chair_right","path":"objects/obj_chair_right/obj_chair_right.yy",},"order":8,},
+    {"id":{"name":"rm_E","path":"rooms/rm_E/rm_E.yy",},"order":6,},
     {"id":{"name":"pt_misty","path":"paths/pt_misty/pt_misty.yy",},"order":4,},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":13,},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"order":22,},
@@ -179,6 +180,7 @@
     {"roomId":{"name":"rm_D","path":"rooms/rm_D/rm_D.yy",},},
     {"roomId":{"name":"rm_wrong","path":"rooms/rm_wrong/rm_wrong.yy",},},
     {"roomId":{"name":"rm_first_objective","path":"rooms/rm_first_objective/rm_first_objective.yy",},},
+    {"roomId":{"name":"rm_E","path":"rooms/rm_E/rm_E.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

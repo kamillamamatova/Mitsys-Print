@@ -9,7 +9,11 @@ function create_dialog(_messages){
 
 char_colors = {
 	"Aribel" : c_aqua,
-	"Cheshire" : c_orange
+	"Cheshire" : c_orange,
+	"Lily" : c_white,
+	"Daffodil" : c_yellow,
+	"Cosmo" : c_fuchsia,
+	"Tulip" : c_red,
 }
 
 laugh_cat = [
@@ -21,21 +25,73 @@ laugh_cat = [
 rmA_dialog = [
 {
 	name: "Cheshire",
-	msg: "You are lucky time is not of the essence."
+	msg: "I have hands but no arms, I can run but never walk."
 }
 ]
 
 rmB_dialog = [
 {
 	name: "Cheshire",
-	msg: "Not even the sun lays to enter my maze."
+	msg: "Follow the guilty to the correct door."
 }
+]
+
+rmB_dialog_lily = [
+{
+	name: "Lily",
+	msg: "Cosmo did it!"
+}
+]
+
+rmB_dialog_daffodil = [
+{
+	name: "Daffodil",
+	msg: "It wasn't me!"
+}
+]
+
+rmB_dialog_cosmo = [
+{
+	name: "Cosmo",
+	msg: "Lily is lying!"
+}
+]
+
+rmB_dialog_tulip = [
+{
+	name: "Tulip",
+	msg: "Daffodil is lying!"
+}
+
+]
+
+rmC_dialog = [
+{
+	name: "Cheshire",
+	msg: "This strange life often requires one to think outside of their walls."
+},
+{
+	name: "Cheshire",
+	msg:"Only then will you reach into the far upper left corners of success."
+}
+]
+
+rmD_dialog = [
+{
+	name: "Cheshire",
+	msg: "That's all I got for now unfortunately."
+},
+{
+	name: "Cheshire",
+	msg:"My creators want to thank you for checking out what they got for now!"
+}
+
 ]
 
 rm0_dialog = [
 { 
 	name: "Cheshire",
-	msg: "Welcome to the Ambigous Maze.."
+	msg: "Welcome to the Ambiguous Maze.."
 },
 
 { 
@@ -71,5 +127,6 @@ rm0_dialog = [
 { 
 	name: "Cheshire",
 	msg: "Let the eyes of the maze choose the door..."
-},
+}
+
 ]

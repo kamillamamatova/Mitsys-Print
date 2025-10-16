@@ -9,7 +9,7 @@
     "path": "rooms/rm_A/rm_A.yy",
   },
   "views": [
-    {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":384,"hview":288,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":400,"hview":300,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":1000,"vborder":1000,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_aribel","path":"objects/obj_aribel/obj_aribel.yy",},},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -21,14 +21,9 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7394DB6D","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":512.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_216D0D87","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78715927","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":416.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_31590DE3","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":384.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5720E792","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7238F86E","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":384.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8313331","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":576.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2636192A","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":576.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7238F86E","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"global.rmD_dialog",},
+          ],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":500.0,"y":486.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":null,"x":0,"y":0,"tiles":{"SerialiseWidth":0,"SerialiseHeight":0,"TileSerialiseData":[
@@ -50,14 +45,7 @@
   "creationCodeFile": "",
   "inheritCode": true,
   "instanceCreationOrder": [
-    {"name":"inst_7394DB6D","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_78715927","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_31590DE3","path":"rooms/rm_D/rm_D.yy",},
     {"name":"inst_7238F86E","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_216D0D87","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_5720E792","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_8313331","path":"rooms/rm_D/rm_D.yy",},
-    {"name":"inst_2636192A","path":"rooms/rm_D/rm_D.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
@@ -69,7 +57,7 @@
   },
   "viewSettings": {
     "inheritViewSettings": true,
-    "enableViews": false,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },
