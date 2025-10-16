@@ -10,7 +10,7 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
     "name": "obj_npc_parent",
     "path": "objects/obj_npc_parent/obj_npc_parent.yy",

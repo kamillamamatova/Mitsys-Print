@@ -9,8 +9,8 @@ if (global.previous_rm == rm_A){
 }
 
 if (global.previous_rm == rm_B){
-	target_x = 385;
-	target_y = 550;
+	target_x = 370;
+	target_y = 450;
 }
 
 if (global.previous_rm == rm_C){

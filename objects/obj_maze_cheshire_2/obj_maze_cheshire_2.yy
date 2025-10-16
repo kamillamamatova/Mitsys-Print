@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_maze_cheshire",
-    "path": "objects/obj_maze_cheshire/obj_maze_cheshire.yy",
+    "name": "obj_npc_parent",
+    "path": "objects/obj_npc_parent/obj_npc_parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

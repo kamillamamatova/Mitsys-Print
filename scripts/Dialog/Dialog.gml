@@ -18,6 +18,19 @@ laugh_cat = [
 	msg: "Heh heh heh."
 }
 ]
+rmA_dialog = [
+{
+	name: "Cheshire",
+	msg: "You are lucky time is not of the essence."
+}
+]
+
+rmB_dialog = [
+{
+	name: "Cheshire",
+	msg: "Not even the sun lays to enter my maze."
+}
+]
 
 rm0_dialog = [
 { 
