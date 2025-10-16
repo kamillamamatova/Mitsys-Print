@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"is_correct","path":"objects/obj_mazedoor/obj_mazedoor.yy",},"objectId":{"name":"obj_mazedoor","path":"objects/obj_mazedoor/obj_mazedoor.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_rm","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"rm_0",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_rm","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"global.previous_rm",},
   ],
   "parent": {
     "name": "maze_objects",

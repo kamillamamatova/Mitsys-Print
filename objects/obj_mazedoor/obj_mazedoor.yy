@@ -33,10 +33,11 @@
   ],
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"is_correct","varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"wrong_target_rm","varType":5,"value":"rm_wrong","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_rm","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"noone",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_x","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"550",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_y","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"550",},
   ],
   "parent": {
     "name": "maze_objects",

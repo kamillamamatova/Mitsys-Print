@@ -5,7 +5,7 @@ if(instance_exists(obj_aribel) && distance_to_object(obj_aribel) < 8)
 	can_talk = true;
 	if(keyboard_check_pressed(input_key))
 	{
-		startDialogue(dialog);
+		create_dialog(dialog);
 	}
 }
 else

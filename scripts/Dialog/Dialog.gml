@@ -1,46 +1,75 @@
-
 function create_dialog(_messages){
-	if(instance_exists(obj_dialog)) return;
+	if (instance_exists(obj_dialog)) return;
 	
 	var _inst = instance_create_depth(0, 0, 0, obj_dialog);
 	_inst.messages = _messages;
-	_inst.current_message = 0;
+	_inst.current_message =0;
 }
+
 
 char_colors = {
-	"Aribel": c_navy,
-	"Bluewy": c_aqua,
-	"Cheshire Cat" : c_orange,
+	"Aribel" : c_aqua,
+	"Cheshire" : c_orange
 }
 
-
-
-
-welcome_dialog = [
+laugh_cat = [
+{ 
+	name: "Cheshire",
+	msg: "Heh heh heh."
+}
+]
+rmA_dialog = [
 {
-	name: "Bluewy",
-	msg: "Press space to dialogue."
-},
-
-{
-	name: "Aribel",
-	msg: "It is working!"
-},
-
-{
-	name: "Bluewy",
-	msg: "Letss goo!"
-},
-
-{
-	name: "Aribel",
-	msg: "...."
-},
+	name: "Cheshire",
+	msg: "You are lucky time is not of the essence."
+}
 ]
 
-ches_diag1 = [
+rmB_dialog = [
 {
-	name: "Cheshire Cat",
-	msg: "To continue on this journey, you need to answer this question."
+	name: "Cheshire",
+	msg: "Not even the sun lays to enter my maze."
 }
+]
+
+rm0_dialog = [
+{ 
+	name: "Cheshire",
+	msg: "Welcome to the Ambigous Maze.."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "To leave, you must go through the right door in each room..."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "If you pick the wrong door, you will know...(Cackle, Cackle)"
+},
+
+{ 
+	name: "Cheshire",
+	msg: "Make the wrong decision twice...and you will be back to where you started"
+},
+
+{ 
+	name: "Cheshire",
+	msg: "But don't worry, I'll help you out... "
+},
+
+{ 
+	name: "Cheshire",
+	msg: "(Tee hee hee.)"
+},
+
+{ 
+	name: "Cheshire",
+	msg: "First clue..."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "Let the eyes of the maze choose the door..."
+},
 ]
