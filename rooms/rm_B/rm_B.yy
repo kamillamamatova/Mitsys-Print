@@ -124,6 +124,6 @@
   },
   "parent": {
     "name": "maze",
-    "path": "folders/Rooms/maze.yy",
+    "path": "folders/Rooms/Wonderland/maze.yy",
   },
 }
