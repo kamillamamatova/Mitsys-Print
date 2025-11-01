@@ -3,8 +3,6 @@ if(keyboard_check_pressed(vk_escape)){
 	global.is_paused = !global.is_paused;
 	
 	if(global.is_paused){
-		global.is_paused = true;
-		
 		// Hides and freezes gameplay
 		layer_set_visible("Instances", false);
 		
@@ -18,9 +16,8 @@ if(keyboard_check_pressed(vk_escape)){
 		}
 	}
 	else{
-		global.is_paused = false;
-		
 		// Resumes logic and audio
+		layer_set_visible("Instances", true);
 		instance_activate_all();
 		audio_resume_all();
 		
