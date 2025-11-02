@@ -1,6 +1,7 @@
 if (!finished) {
     // Typewriter effect
     char_timer++;
+	
     if (char_timer >= text_speed && string_length(dialogue_text) < string_length(dialogue[text_index])) {
         dialogue_text = string_copy(dialogue[text_index], 1, string_length(dialogue_text) + 1);
         char_timer = 0;

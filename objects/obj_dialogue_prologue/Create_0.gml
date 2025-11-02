@@ -1,3 +1,8 @@
+if (instance_number(obj_dialogue_prologue) == 0) {
+    instance_create_layer(0, 0, "Instances", obj_dialogue_prologue);
+}
+
+
 dialogue = [
     "It’s a quiet morning in Celestine Woods...",
     "Aribel looks around, unsure of where Misty went.",
