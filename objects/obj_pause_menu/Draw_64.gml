@@ -1,3 +1,5 @@
+draw_text(10, 10, "PAUSE MENU DRAWING");
+
 draw_set_font(global.font_main);
 
 var w = display_get_width();
