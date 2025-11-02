@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_prologue",
-  "spriteId": {
-    "name": "spr_prologue",
-    "path": "sprites/spr_prologue/spr_prologue.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
