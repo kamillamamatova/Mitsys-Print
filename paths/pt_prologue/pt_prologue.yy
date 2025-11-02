@@ -12,7 +12,7 @@
     {"speed":100.0,"x":672.0,"y":544.0,},
   ],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
 }

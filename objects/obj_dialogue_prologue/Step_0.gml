@@ -8,13 +8,17 @@ if (!finished) {
 
     // When done typing and player presses a key, advance
     if (string_length(dialogue_text) == string_length(dialogue[text_index])) {
-        if (keyboard_check_pressed(vk_space)) {
+        if (keyboard_check_pressed(vk_enter)) {
             if (text_index < array_length(dialogue) - 1) {
                 text_index++;
                 dialogue_text = "";
                 finished = false;
             } else {
                 instance_destroy(); // remove dialogue box after last line
+				if (keyboard_check_pressed(vk_enter))
+					{
+						room_goto(rm_exterior);
+					}
             }
         }
     }
