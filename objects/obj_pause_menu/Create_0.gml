@@ -22,3 +22,6 @@ option[1, 3] = "Back";
 
 op_length = 0;
 menu_level = 0;
+
+width = 0;
+height = 0;
