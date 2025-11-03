@@ -1,9 +1,7 @@
-draw_text(10, 10, "PAUSE MENU DRAWING");
-
 draw_set_font(global.font_main);
 
-var w = display_get_width();
-var h = display_get_height();
+var w = display_get_gui_width();
+var h = display_get_gui_height();
 
 // Dynamically gets width and height of menu
 var _new_w = 0;
