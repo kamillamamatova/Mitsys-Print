@@ -20,12 +20,12 @@ if accept_key{
 	switch(menu_level){
 		case 0: 
 			switch(pos){
-				// Starts game
-				case 0: room_goto_next(); break;
+				// Continues game
+				case 0: global.is_paused = false; break;
 				// Settings
 				case 1: menu_level = 1; break;
 				// Quits game
-				case 2: game_end(); break;
+				case 2: global.is_paused = false; game_end(); break;
 				}
 			break;
 	
