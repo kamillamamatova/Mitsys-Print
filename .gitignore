@@ -17,3 +17,4 @@ build/
 .vscode/
 *.iml
 .DS_Store
+GEMINI.md

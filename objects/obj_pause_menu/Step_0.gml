@@ -21,7 +21,7 @@ if accept_key{
 		case 0: 
 			switch(pos){
 				// Continues game
-				case 0: global.is_paused = false; break;
+				case 0: global.is_paused = false; instance_destroy(); break;
 				// Settings
 				case 1: menu_level = 1; break;
 				// Quits game

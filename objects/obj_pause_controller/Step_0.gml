@@ -20,7 +20,7 @@ if(room != rm_title_screen){
 				instance_create_layer(0, 0, "GUI", obj_pause_menu);
 			}
 		}
-		else{
+		else if(!global.is_paused){
 			// Resumes logic and audio
 			layer_set_visible("Instances", true);
 			instance_activate_all();
