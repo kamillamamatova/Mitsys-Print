@@ -1,3 +1,5 @@
+// drawing GUI for prologue
+
 // Set up box visuals
 var box_x = 150;
 var box_y = 150;
