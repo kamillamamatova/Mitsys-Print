@@ -1,14 +1,20 @@
+// dialogue for prologue
+
 if (instance_number(obj_dialogue_prologue) == 0) {
     instance_create_layer(0, 0, "Instances", obj_dialogue_prologue);
 }
 
-
-dialogue = [
-    "It’s a quiet morning in Celestine Woods...",
-    "Aribel looks around, unsure of where Misty went.",
-    "Suddenly, a soft voice calls out from the distance...",
-	"Goal: Solve the puzzles found in each of the 4 levels (books) to find Misty and escape the library.",
-	"Play in a 3rd POV as Aribel, and press the arrow keys or WASD to navigate",
+// actual dialogue
+dialogue = ["The forest had always been Aribel’s quiet place.",
+			"When she was little, she and her mother used to walk these trails, reading stories beneath the old maple trees.",
+			"Now, years later, only the wind remembered their voices.",
+			"Aribel sighs softly",
+			"\"Come on, Misty... just a little further.\"",
+			"Suddenly, Misty freezes and without warning, Misty darts off into the forest.",
+			"\"Misty! Wait!\"",
+			"Aribel’s heart pounds.",
+			"\"She’s all I have left of Mom—please, don’t run off!\"",
+			"Aribel sprints after her, chasing the sound of fading pawsteps through the forest.",			
 ];
 
 text_index = 0;          // Which line we’re on
