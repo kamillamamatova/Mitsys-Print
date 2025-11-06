@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Mitsy's Print",
-    "path": "Mitsy's Print.yyp",
+    "name": "maze_sprites",
+    "path": "folders/Sprites/maze_sprites.yy",
   },
 }
