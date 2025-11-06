@@ -1,3 +1,5 @@
+// misty's directional movements
+
 // Moving upwards
 if (direction > 45 && direction <= 135)
 {
