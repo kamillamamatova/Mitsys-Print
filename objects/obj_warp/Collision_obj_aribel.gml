@@ -1,3 +1,15 @@
-room_goto(target_rm);
-obj_aribel.x = target_x;
-obj_aribel.y = target_y;
+// Ensure the fade controller exists
+if (!instance_exists(obj_room_fade)) {
+    // Use any layer that exists in this room; "Instances" is common
+    instance_create_layer(0, 0, "Instances", obj_room_fade);
+}
+
+// Cache our target info before entering the with() block
+var _rm = target_rm;
+var _tx = target_x;
+var _ty = target_y;
+
+// Start the transition
+with (obj_room_fade) {
+    start_transition(_rm, _tx, _ty);
+}
