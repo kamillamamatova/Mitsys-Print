@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "exterior objects",
+    "path": "folders/Objects/exterior objects.yy",
   },
 }
