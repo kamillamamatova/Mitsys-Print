@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_aribel",
+  "name": "obj_monster",
   "spriteId": {
-    "name": "spr_aribel_down",
-    "path": "sprites/spr_aribel_down/spr_aribel_down.yy",
+    "name": "spr_cheshire",
+    "path": "sprites/spr_cheshire/spr_cheshire.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": {
-    "name": "obj_instances_parent",
-    "path": "objects/obj_instances_parent/obj_instances_parent.yy",
-  },
+  "persistent": false,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -29,13 +26,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "cthulhu",
+    "path": "folders/Objects/cthulhu.yy",
   },
 }
