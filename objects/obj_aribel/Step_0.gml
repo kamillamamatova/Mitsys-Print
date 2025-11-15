@@ -86,7 +86,7 @@ if (ability_active) {
         if (dist < other.ability_radius) {
             // Apply cleansing effect (stun, disable, etc.)
             state = "cleansed";
-            alarm[0] = room_speed; // Example: 1 second cleanse
+            alarm[0] = room_speed * 2; // Example: 1 second cleanse
         }
     }
 
@@ -99,4 +99,15 @@ if (ability_active) {
     }
 }
 
+////////////// make civilians follow
+if (keyboard_check_pressed(ord("E"))) {
+    with (obj_civilian) {
+        following_player = true;
+    }
+}
 
+//if (keyboard_check_pressed(ord("E"))) {
+//    with (obj_civilian) {
+//        following_player = !following_player; // toggles follow on/off
+//    }
+//}

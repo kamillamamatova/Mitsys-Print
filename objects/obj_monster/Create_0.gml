@@ -1,14 +1,9 @@
 // --- obj_monster: Create ---
-state = "normal";
+// --- Movement AI ---
+move_speed = 1.2;
+wander_time = 0;
+pause_time = 0;
 
-// --- obj_monster: Step ---
-if (state == "cleansed") {
-    speed = 0; // Or reduce speed
-    image_blend = c_white; // Maybe make them glow
-} else {
-    // normal AI behavior
-}
-
-// --- obj_monster: Alarm[0] ---
+// --- Cleansed system ---
 state = "normal";
-image_blend = c_red; // back to normal
+image_blend = c_red;
