@@ -90,6 +90,7 @@
     {"id":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},"order":1,},
     {"id":{"name":"rm_interior14","path":"rooms/rm_interior14/rm_interior14.yy",},"order":5,},
     {"id":{"name":"obj_pause_controller","path":"objects/obj_pause_controller/obj_pause_controller.yy",},"order":35,},
+    {"id":{"name":"obj_cleansed_mist","path":"objects/obj_cleansed_mist/obj_cleansed_mist.yy",},"order":2,},
     {"id":{"name":"spr_chair_right","path":"sprites/spr_chair_right/spr_chair_right.yy",},"order":10,},
     {"id":{"name":"spr_fountain","path":"sprites/spr_fountain/spr_fountain.yy",},"order":25,},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":2,},
