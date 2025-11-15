@@ -63,12 +63,12 @@ if (ability_cooldown > 0) {
     ability_cooldown--;
 }
  
-// Activate ability when pressing C and not on cooldown
+// Activate ability 
 if (keyboard_check_pressed(ord("C")) && ability_cooldown <= 0 && has_cleansing ) {
     ability_active = true;
     ability_cooldown = ability_cooldown_max;
     ability_radius = 0;
-    // Optional: play sound or animation
+    // Optional: play sound or animation 
 }
 
 // Handle pulse expansion
@@ -80,17 +80,17 @@ if (ability_active) {
     }
 
     // Cleanse Effect
-    // Example: affect monsters in range
+    // affect monsters in range
     with (obj_monster) {
         var dist = point_distance(other.x, other.y, x, y);
         if (dist < other.ability_radius) {
-            // Apply cleansing effect (stun, disable, etc.)
+            // Apply cleansing effect
             state = "cleansed";
-            alarm[0] = room_speed * 2; // Example: 1 second cleanse
+            alarm[0] = room_speed * 2; // 2 second cleanse
         }
     }
 
-    // Example: affect madness mist
+    // affect madness mist
     with (obj_madness_mist) {
         var dist = point_distance(other.x, other.y, x, y);
         if (dist < other.ability_radius) {
