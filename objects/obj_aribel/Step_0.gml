@@ -56,15 +56,15 @@ if xspd == 0 && yspd == 0{
 //reset move speed
 move_spd = 2;
 
-// Ability 
+////////////// Ability ///////////////////
 
 // Reduce cooldown if needed
 if (ability_cooldown > 0) {
     ability_cooldown--;
 }
-
+ 
 // Activate ability when pressing C and not on cooldown
-if (keyboard_check_pressed(ord("C")) && ability_cooldown <= 0) {
+if (keyboard_check_pressed(ord("C")) && ability_cooldown <= 0 && has_cleansing ) {
     ability_active = true;
     ability_cooldown = ability_cooldown_max;
     ability_radius = 0;
