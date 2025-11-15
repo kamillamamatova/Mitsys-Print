@@ -1,3 +1,2 @@
-// Example: teleport player to respawn point
-other.x = 160;  // your chosen coordinate
+other.x = 160;  
 other.y = 530;
