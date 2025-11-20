@@ -1,2 +1,2 @@
-other.x = 160;  
-other.y = 530;
+other.x = 700;  
+other.y = 700;
