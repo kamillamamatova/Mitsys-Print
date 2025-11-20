@@ -36,7 +36,7 @@ else {
 }
 
 
-/// COLLISION WITH RUBBLE (simple sliding)
+/// COLLISION WITH RUBBLE 
 if (place_meeting(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction), obj_rubble)) {
     // turn away from rubble
     direction += irandom_range(120, 240);
