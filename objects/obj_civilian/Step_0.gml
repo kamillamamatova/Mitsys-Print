@@ -1,3 +1,5 @@
+
+
 if (following_player) {
     // Get direction toward player
     var dir = point_direction(x, y, obj_aribel.x, obj_aribel.y);
@@ -10,7 +12,7 @@ if (following_player) {
     if (!place_meeting(x + mx, y, obj_rubble)) {
         x += mx;
     }
-    if (!place_meeting(y + my, y + my, obj_rubble)) {
+    if (!place_meeting(x, y + my, obj_rubble)) {
         y += my;
     }
 }
@@ -19,3 +21,5 @@ if (following_player) {
 if (point_distance(x, y, obj_aribel.x, obj_aribel.y) < 12) {
     following_player = false;
 }
+
+if (global.mist_puzzle_done) following_player = false;
