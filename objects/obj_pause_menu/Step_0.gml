@@ -14,7 +14,7 @@ if pos < 0{ pos = op_length - 1};
 // Using the options
 if accept_key{
 	// sml: start menu level
-	var _sml = menu_level;
+	//var _sml = menu_level;
 	
 	// Pause menu
 	switch(menu_level){
@@ -23,7 +23,7 @@ if accept_key{
 				// Continues game
 				case 0: global.is_paused = false; break;
 				// Settings
-				case 1: menu_level = 1; break;
+				case 1: menu_level = 1; pos = 0; break;
 				// Quits game
 				case 2: global.is_paused = false; game_end(); break;
 				}
@@ -34,7 +34,8 @@ if accept_key{
 			switch(pos){
 				// Window size
 				case 0:
-				
+					menu_level = 2;
+					pos = 0;
 					break;
 				// Brightness
 				case 1:
@@ -47,14 +48,51 @@ if accept_key{
 				// Back
 				case 3:
 					menu_level = 0;
+					pos = 0;
 					break;
 				}
+			break;
+		
+		// Window size
+		case 2:
+			switch(pos){
+				// x1
+				case 0:
+					window_set_size(320, 240);
+					surface_resize(application_surface, 320, 240);
+					window_size_pos = 0;
+					break;
+				// x2
+				case 1:
+					window_set_size(640, 480);
+					surface_resize(application_surface, 640, 480);
+					window_size_pos = 1;
+					break;
+				// x3
+				case 2:
+					window_set_size(960, 720);
+					surface_resize(application_surface, 960, 720);
+					window_size_pos = 2;
+					break;
+				// Back
+				case 3:
+					menu_level = 1;
+					pos = 0;
+					break;
+			}
 			break;
 		}
 		
 	// Sets position back
-	if _sml != menu_level{ pos = 0};
+	// if _sml != menu_level{ pos = 0};
+	
+	show_debug_message("menu_level: " + string(menu_level));
+	show_debug_message("pos: " + string(pos));
+	show_debug_message("accept_key: " + string(accept_key));
 		
 	// The correct option length
 	op_length = array_length(option[menu_level]);
 }
+
+// Sets the window size text
+option[1, 0] = "Windows Size < " + option[2, window_size_pos] + " >";
