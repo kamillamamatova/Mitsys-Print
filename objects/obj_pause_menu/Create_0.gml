@@ -9,6 +9,7 @@ op_space = 16;
 
 pos = 0;
 window_size_pos = 0;
+brightness_pos = 0;
 
 // Pause menu
 option[0, 0] = "Continue Game";
@@ -31,7 +32,7 @@ option[2, 3] = "Back";
 option[3, 0] = "100%";
 option[3, 1] = "80%";
 option[3, 2] = "60%";
-option[3, 3] = "40";
+option[3, 3] = "40%";
 option[3, 4] = "20%";
 option[3, 5] = "Back";
 
