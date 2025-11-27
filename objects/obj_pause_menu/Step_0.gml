@@ -39,7 +39,18 @@ if accept_key{
 					break;
 				// Brightness
 				case 1:
-				
+					// Cycles brightness
+					// 0.0 to 0.2 to 0.4 to 0.6 to 0.8 to 0.0
+					global.brightness += 0.2;
+					
+					if(global.brightness > 0.2){
+						global.brightness = 0;
+					}
+					
+					// Updates the text to show %
+					// 0.0 is 100% bright and 0.2 is 80% bright
+					var _percent = string(round((1 - global.brightness) * 100));
+					option[1, 1] = "Brightness: " + _percent + "%";
 					break;
 				// Controls
 				case 2:
@@ -91,4 +102,6 @@ if accept_key{
 }
 
 // Sets the window size text
-option[1, 0] = "Windows Size < " + option[2, window_size_pos] + " >";
+if(menu_level == 1){
+	option[1, 0] = "Windows Size < " + option[2, window_size_pos] + " >";
+}

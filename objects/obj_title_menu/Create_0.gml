@@ -9,6 +9,7 @@ op_space = 16;
 
 pos = 0;
 window_size_pos = 0;
+brightness_pos = 0;
 
 // Pause menu
 option[0, 0] = "Start Game";
@@ -22,10 +23,19 @@ option[1, 2] = "Controls";
 option[1, 3] = "Back";
 
 // Windows Size menu
-option[2, 0] = "1x";
-option[2, 1] = "2x";
-option[2, 2] = "3x";
+option[2, 0] = "x1";
+option[2, 1] = "x2";
+option[2, 2] = "x3";
 option[2, 3] = "Back";
+
+// Brightness
+option[3, 0] = "100%";
+option[3, 1] = "80%";
+option[3, 2] = "60%";
+option[3, 3] = "40%";
+option[3, 4] = "20%";
+//option[3, 5] = "1%";
+option[3, 5] = "Back";
 
 op_length = 0;
 menu_level = 0;
