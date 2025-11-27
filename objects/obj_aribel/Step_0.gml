@@ -56,5 +56,58 @@ if xspd == 0 && yspd == 0{
 //reset move speed
 move_spd = 2;
 
+////////////// Ability ///////////////////
 
+// Reduce cooldown if needed
+if (ability_cooldown > 0) {
+    ability_cooldown--;
+}
+ 
+// Activate ability 
+if (keyboard_check_pressed(ord("C")) && ability_cooldown <= 0 && has_cleansing ) {
+    ability_active = true;
+    ability_cooldown = ability_cooldown_max;
+    ability_radius = 0;
+    // Optional: play sound or animation 
+}
 
+// Handle pulse expansion
+if (ability_active) {
+    ability_radius += 8; // Expansion speed
+    if (ability_radius >= ability_max_radius) {
+        ability_active = false;
+        ability_radius = 0;
+    }
+
+    // Cleanse Effect
+    // affect monsters in range
+    with (obj_monster) {
+        var dist = point_distance(other.x, other.y, x, y);
+        if (dist < other.ability_radius) {
+            // Apply cleansing effect
+            state = "cleansed";
+            alarm[0] = room_speed * 2; // 2 second cleanse
+        }
+    }
+
+    // affect madness mist
+    with (obj_madness_mist) {
+        var dist = point_distance(other.x, other.y, x, y);
+        if (dist < other.ability_radius) {
+            instance_change(obj_cleansed_mist, true);
+        }
+    }
+}
+
+////////////// make civilians follow
+if (keyboard_check_pressed(ord("E"))) {
+    with (obj_civilian) {
+        following_player = true;
+    }
+}
+
+//if (keyboard_check_pressed(ord("E"))) {
+//    with (obj_civilian) {
+//        following_player = !following_player; // toggles follow on/off
+//    }
+//}
