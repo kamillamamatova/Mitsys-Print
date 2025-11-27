@@ -8,7 +8,7 @@ op_border = 8;
 op_space = 16;
 
 pos = 0;
-window_sizs_pos = 0;
+window_size_pos = 0;
 
 // Pause menu
 option[0, 0] = "Start Game";
