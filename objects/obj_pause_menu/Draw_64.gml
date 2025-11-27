@@ -4,13 +4,21 @@ var w = display_get_gui_width();
 var h = display_get_gui_height();
 
 // Dynamically gets width and height of menu
+op_length = array_length(option[menu_level]);
 var _new_w = 0;
 for(var i = 0; i < op_length; i++){
 	var _op_w = string_width(option[menu_level, i]);
 	_new_w = max(_new_w, _op_w);
 }
 width = _new_w + op_border * 2;
-height = op_border * 2 + string_height(option[0, 0]) + (op_length - 1) * op_space;
+//height = op_border * 2 + string_height(option[0, 0]) + (op_length - 1) * op_space;
+
+if(op_length > 0){
+	height = op_border * 2 + string_height(option[menu_level, 0]) + (op_length - 1) * op_space;
+}
+else{
+	height = op_border * 2;
+}
 
 // Centers menu
 x = w/2 - width/2;

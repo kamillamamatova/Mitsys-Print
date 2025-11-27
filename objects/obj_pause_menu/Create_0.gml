@@ -22,9 +22,9 @@ option[1, 2] = "Controls";
 option[1, 3] = "Back";
 
 // Windows Size
-option[2, 0] = "x1";
-option[2, 1] = "x2";
-option[2, 2] = "x3";
+option[2, 0] = "1x";
+option[2, 1] = "2x";
+option[2, 2] = "3x";
 option[2, 3] = "Back";
 
 op_length = 0;
