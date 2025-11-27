@@ -85,10 +85,6 @@ if accept_key{
 		
 	// Sets position back
 	// if _sml != menu_level{ pos = 0};
-	
-	show_debug_message("menu_level: " + string(menu_level));
-	show_debug_message("pos: " + string(pos));
-	show_debug_message("accept_key: " + string(accept_key));
 		
 	// The correct option length
 	op_length = array_length(option[menu_level]);
