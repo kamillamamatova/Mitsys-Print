@@ -4,7 +4,7 @@ down_key = keyboard_check_pressed(vk_down);
 accept_key = keyboard_check_pressed(vk_enter);
 
 // Stores number of options in the current menu
-op_length = array_length(option[menu_level]);
+//op_length = array_length(option[menu_level]);
 
 // Moves through the menu
 pos += down_key - up_key;
