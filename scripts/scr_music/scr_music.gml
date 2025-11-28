@@ -1,4 +1,10 @@
 function play_room_music() {
+		
+		if(!global.music_on){
+			// Exits the script if music is disabled
+			return;
+		}
+		
     var music = noone;
     
     switch (room) {
