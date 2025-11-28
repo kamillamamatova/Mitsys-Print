@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"spr_cheshire","path":"sprites/spr_cheshire/spr_cheshire.yy",},"order":39,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":14,},
+    {"id":{"name":"obj_dialogue_interior","path":"objects/obj_dialogue_interior/obj_dialogue_interior.yy",},"order":6,},
     {"id":{"name":"spr_foreground","path":"sprites/spr_foreground/spr_foreground.yy",},"order":3,},
     {"id":{"name":"spr_portrait_player","path":"sprites/spr_portrait_player/spr_portrait_player.yy",},"order":47,},
     {"id":{"name":"spr_aribel_right","path":"sprites/spr_aribel_right/spr_aribel_right.yy",},"order":20,},

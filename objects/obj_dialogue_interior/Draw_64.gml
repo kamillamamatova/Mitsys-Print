@@ -1,4 +1,4 @@
-// drawing the GUI for rm_exterior
+// drawing the GUI for rm_intterior
 
 var box_width  = 310;
 var box_height = 60;
