@@ -3,7 +3,6 @@ if(room != rm_title_screen){
 	if(keyboard_check_pressed(vk_escape)){
 		// Flips each time the user presses esc
 		global.is_paused = !global.is_paused;
-	
 		// Debug
 		show_debug_message("esc pressed, paused = " + string(global.is_paused));
 	}
@@ -13,15 +12,14 @@ if(room != rm_title_screen){
 		audio_pause_all();
 		instance_deactivate_all(true);
 		
-		// Hides and freezes gameplay
-		layer_set_visible("Instances", false);
+		// Reactivates the game controller so it can draw the brightness overlay
+		instance_activate_object(obj_game_controller);
 			
 		// Shows pause menu overlay
 		instance_create_layer(0, 0, "GUI", obj_pause_menu);
 	}
 	else if(!global.is_paused && instance_exists(obj_pause_menu)){
 			// Resumes logic and audio
-			layer_set_visible("Instances", true);
 			instance_activate_all();
 			audio_resume_all();
 		
