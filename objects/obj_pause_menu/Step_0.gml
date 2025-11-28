@@ -178,6 +178,7 @@ if accept_key{
 
 option[1, 0] = "Windows Size < " + option[2, window_size_pos] + " >";
 option[1, 1] = "Brightness < " + option[3, brightness_pos] + " >";
+option[1, 2] = "Audio < " + option[4, audio_pos] + " >";
 
 // Updates audio menu text
 option[4, 0] = "Music: " + (global.music_on ? "On" : "Off");
