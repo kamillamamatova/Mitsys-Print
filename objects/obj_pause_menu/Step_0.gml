@@ -42,12 +42,17 @@ if accept_key{
 					menu_level = 3;
 					pos = 0;
 					break;
-				// Controls
+				// Audio
 				case 2:
+					menu_level = 4;
+					pos = 0;
+					break;
+				// Controls
+				case 3:
 				
 					break;
 				// Back
-				case 3:
+				case 4:
 					menu_level = 0;
 					pos = 0;
 					break;
