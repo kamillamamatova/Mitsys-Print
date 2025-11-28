@@ -49,7 +49,8 @@ if accept_key{
 					break;
 				// Controls
 				case 3:
-				
+					menu_level = 5;
+					pos = 0;
 					break;
 				// Back
 				case 4:
@@ -160,6 +161,18 @@ if accept_key{
 				// Back
 				case 2:
 					menu_level = 1;
+					pos = 0;
+					break;
+			}
+			
+			break;
+		
+		// Controls
+		case 5:
+			switch(pos){
+				// Back
+				case 0:
+					menu_level = 0;
 					pos = 0;
 					break;
 			}
