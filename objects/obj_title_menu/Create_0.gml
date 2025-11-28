@@ -44,5 +44,8 @@ option[4, 0] = "Music: On";
 option[4, 1] = "Sound: On";
 option[4, 2] = "Back";
 
+// Controls
+option[5, 0] = "Back";
+
 op_length = 0;
 menu_level = 0;
