@@ -129,5 +129,6 @@ if (madness >= max_madness)
 {
     // Trigger the loss state and reset the room
     show_message("You succumbed to the madness!");
+	madness = 0;
     room_restart();
 }
