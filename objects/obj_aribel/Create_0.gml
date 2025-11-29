@@ -23,3 +23,7 @@ ability_cooldown_max = 120; // 2 seconds at 60 FPS
 ability_active = false;     // Is the cleansing pulse currently active?
 ability_radius = 20;         // Current radius of the pulse
 ability_max_radius = 125;   // Max distance pulse will reach
+
+// Madness
+madness = 0; // Current madness level (starts at 0)
+max_madness = 100; // The maximum value
