@@ -1,3 +1,5 @@
+display_set_gui_size(683, 384);
+gpu_set_texfilter(false);
 // actual dialogue
 dialogue = ["Whoa where am I?",
 			"I guess I better find Misty and see where she ran off to.",
