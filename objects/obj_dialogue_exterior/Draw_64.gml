@@ -1,5 +1,4 @@
 // drawing the GUI for rm_exterior
-matrix_set(matrix_world, matrix_build_identity());
 
 var box_width  = 310;
 var box_height = 60;
