@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_lib_interior_shade",
-  "spriteId": {
-    "name": "spr_lib_interior_shade",
-    "path": "sprites/spr_lib_interior_shade/spr_lib_interior_shade.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -1,18 +1,16 @@
 draw_set_font(global.font_main);
 
-// ---------------------------------------------------------
-// 1. CALCULATE MENU DIMENSIONS
-// ---------------------------------------------------------
+// Calculates menu dimensions
 op_length = array_length(option[menu_level]);
 
-// Calculate dynamic width based on longest option text
+// Calculates dynamic width based on longest option text
 var _new_w = 0;
 for(var i = 0; i < op_length; i++){
 	var _op_w = string_width(option[menu_level, i]);
 	_new_w = max(_new_w, _op_w);
 }
 
-// Sets idth and height based on the current page
+// Sets width and height based on the current page
 if (menu_level == 5) {
     // Dynamic size for controls page based on the text content
     var _str_w = string_width("Move: WASD / Arrows"); 
@@ -64,7 +62,7 @@ if(menu_level == 5){
 	// Coordinates relative to the menu box
 	var _cx = x + width/2;
 	var _cy = y + op_border; 
-	var _gap = 20; // Reduced spacing to fit better
+	var _gap = 20;
 	
 	// Draws instructions at the top
 	draw_text_color(_cx, _cy + _gap * 2, "- Controls -", c_white, c_white, c_white, c_white, 1);
