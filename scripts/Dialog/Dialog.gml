@@ -14,6 +14,7 @@ char_colors = {
 	"Daffodil" : c_yellow,
 	"Cosmo" : c_fuchsia,
 	"Tulip" : c_red,
+	"Civilian" : c_purple,
 }
 
 laugh_cat = [
