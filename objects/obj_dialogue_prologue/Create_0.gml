@@ -1,9 +1,9 @@
 // dialogue for prologue
 
-if (instance_number(obj_dialogue_prologue) == 0) {
+/*if (instance_number(obj_dialogue_prologue) == 0) {
     instance_create_layer(0, 0, "Instances", obj_dialogue_prologue);
 }
-
+*/
 // actual dialogue
 dialogue = ["The forest had always been Aribel's quiet place.",
 			"When she was little, she and her mother used to walk these trails, reading stories beneath the old maple trees.",
