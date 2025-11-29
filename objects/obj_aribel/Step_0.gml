@@ -157,3 +157,23 @@ if (keyboard_check_pressed(ord("E"))) {
 //        following_player = !following_player; // toggles follow on/off
 //    }
 //}
+
+
+// ---- Madness Logic ----
+if(place_meeting(x, y, obj_madness_mist)) {
+	madness += 0.20; 
+}
+else {
+	madness -= 0.10;
+}
+
+// --- Clamp the madness value (keep it between 0 and max_madness) ---
+madness = clamp(madness, 0, max_madness); 
+
+// --- Check for the maximum (loss) condition ---
+if (madness >= max_madness)
+{
+    // Trigger the loss state and reset the room
+    show_message("You succumbed to the madness!");
+    room_restart();
+}
