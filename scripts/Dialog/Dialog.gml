@@ -131,3 +131,48 @@ rm0_dialog = [
 }
 
 ]
+
+dock_dialog = [
+{
+	name: "Civilian",
+	msg: "I... I can’t escape! Everytime I leave by boat..."
+},
+{
+	name: "Civilian",
+	msg: "I end up here! Again!"
+},
+{
+	name: "Aribel",
+	msg: "What is this odd feeling coming from the city?"
+},
+{
+	name: "Civilian",
+	msg: "It is coming from that malevolent creature, Cthulhu!"
+},
+{
+	name: "Civilian",
+	msg: "His psychic powers make people mad and then into monsters..."
+},
+
+{
+	name: "Civilian",
+	msg: "You seem to just have come in contact with the city..."
+},
+{
+	name: "Civilian",
+	msg: "Try and --- Argh!"
+},
+{
+	name: "Civilian",
+	msg: "And find the artifact I left behind... It can repel and cleanse the madness"
+},
+{
+	name: "Civilian",
+	msg: "Made by Dr . Henry Armitage... before he subdued to the madness..."
+},
+
+{
+	name: "Civilian",
+	msg: "Urgh Arrgh"
+},
+]
