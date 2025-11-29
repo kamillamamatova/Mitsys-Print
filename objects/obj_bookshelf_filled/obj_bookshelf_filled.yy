@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_bookshelf_filled",
   "spriteId": {
-    "name": "bookshelf_filled",
-    "path": "sprites/bookshelf_filled/bookshelf_filled.yy",
+    "name": "spr_bookshelf_filled",
+    "path": "sprites/spr_bookshelf_filled/spr_bookshelf_filled.yy",
   },
   "solid": false,
   "visible": true,
