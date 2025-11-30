@@ -7,57 +7,69 @@ function create_dialog(_messages){
 }
 
 
-char_colors = {
+global.char_colors = {
 	"Aribel" : c_aqua,
 	"Cheshire" : c_orange,
 	"Lily" : c_white,
 	"Daffodil" : c_yellow,
 	"Cosmo" : c_fuchsia,
 	"Tulip" : c_red,
+	"Civilian" : c_purple,
 }
 
-laugh_cat = [
+global.char_portraits = {
+	"Aribel" : spr_portrait_aribel,
+	"Cheshire" : spr_portrait_cheshire,
+	"Lily" : spr_portrait_lily,
+	"Daffodil" : spr_portrait_daffodil,
+	"Cosmo" : spr_portrait_cosmo,
+	"Tulip" : spr_portrait_tulip,
+	"Civilian" : spr_portrait_civilian,
+}
+
+global.laugh_cat = [
 { 
 	name: "Cheshire",
 	msg: "Heh heh heh."
 }
 ]
-rmA_dialog = [
+
+global.rmA_dialog = [
 {
 	name: "Cheshire",
 	msg: "I have hands but no arms, I can run but never walk."
 }
 ]
 
-rmB_dialog = [
+global.rmB_dialog = [
 {
 	name: "Cheshire",
 	msg: "Follow the guilty to the correct door."
 }
 ]
 
-rmB_dialog_lily = [
+global.rmB_dialog_lily = [
 {
 	name: "Lily",
 	msg: "Cosmo did it!"
 }
 ]
 
-rmB_dialog_daffodil = [
+global.rmB_dialog_daffodil = [
 {
 	name: "Daffodil",
 	msg: "It wasn't me!"
 }
 ]
 
-rmB_dialog_cosmo = [
+global.rmB_dialog_cosmo = [
 {
 	name: "Cosmo",
 	msg: "Lily is lying!"
 }
 ]
 
-rmB_dialog_tulip = [
+global.rmB_dialog_tulip = [
 {
 	name: "Tulip",
 	msg: "Daffodil is lying!"
@@ -65,7 +77,7 @@ rmB_dialog_tulip = [
 
 ]
 
-rmC_dialog = [
+global.rmC_dialog = [
 {
 	name: "Cheshire",
 	msg: "This strange life often requires one to think outside of their walls."
@@ -76,7 +88,7 @@ rmC_dialog = [
 }
 ]
 
-rmD_dialog = [
+global.rmD_dialog = [
 {
 	name: "Cheshire",
 	msg: "That's all I got for now unfortunately."
@@ -88,7 +100,7 @@ rmD_dialog = [
 
 ]
 
-rm0_dialog = [
+global.rm0_dialog = [
 { 
 	name: "Cheshire",
 	msg: "Welcome to the Ambiguous Maze.."
@@ -128,5 +140,8 @@ rm0_dialog = [
 	name: "Cheshire",
 	msg: "Let the eyes of the maze choose the door..."
 }
+]
 
+global.dock_dialog = [
+	{ name: "Civilian", msg: "I... I can't escape!" },
 ]
