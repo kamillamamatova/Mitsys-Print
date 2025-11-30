@@ -6,7 +6,7 @@
     "name": "spr_cheshire",
     "path": "sprites/spr_cheshire/spr_cheshire.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

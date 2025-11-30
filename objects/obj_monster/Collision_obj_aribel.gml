@@ -1,1 +1,2 @@
-room_restart()
+other.x = 700;  
+other.y = 700;

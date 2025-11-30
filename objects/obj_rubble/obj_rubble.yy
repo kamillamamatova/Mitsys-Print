@@ -6,7 +6,7 @@
     "name": "spr_rubble",
     "path": "sprites/spr_rubble/spr_rubble.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

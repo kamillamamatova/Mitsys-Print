@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_mist_goal",
   "spriteId": {
-    "name": "spr_portrait_player",
-    "path": "sprites/spr_portrait_player/spr_portrait_player.yy",
+    "name": "spr_talk",
+    "path": "sprites/spr_talk/spr_talk.yy",
   },
   "solid": false,
   "visible": true,
