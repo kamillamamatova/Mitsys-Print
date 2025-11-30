@@ -17,6 +17,16 @@ global.char_colors = {
 	"Civilian" : c_purple,
 }
 
+global.char_portraits = {
+	"Aribel" : spr_portrait_aribel,
+	"Cheshire" : spr_portrait_cheshire,
+	"Lily" : spr_portrait_lily,
+	"Daffodil" : spr_portrait_daffodil,
+	"Cosmo" : spr_portrait_cosmo,
+	"Tulip" : spr_portrait_tulip,
+	"Civilian" : spr_portrait_civilian,
+}
+
 global.laugh_cat = [
 { 
 	name: "Cheshire",
