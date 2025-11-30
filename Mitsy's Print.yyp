@@ -118,6 +118,7 @@
     {"id":{"name":"rm_toMaze","path":"rooms/rm_toMaze/rm_toMaze.yy",},"order":3,},
     {"id":{"name":"rm_prologue","path":"rooms/rm_prologue/rm_prologue.yy",},"order":4,},
     {"id":{"name":"spr_rmA_candle","path":"sprites/spr_rmA_candle/spr_rmA_candle.yy",},"order":3,},
+    {"id":{"name":"obj_pathfinder","path":"objects/obj_pathfinder/obj_pathfinder.yy",},"order":8,},
     {"id":{"name":"spr_artifact","path":"sprites/spr_artifact/spr_artifact.yy",},"order":1,},
     {"id":{"name":"scr_music","path":"scripts/scr_music/scr_music.yy",},"order":3,},
     {"id":{"name":"spr_library","path":"sprites/spr_library/spr_library.yy",},"order":34,},

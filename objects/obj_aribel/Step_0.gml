@@ -117,7 +117,9 @@ if (ability_active) {
         if (dist < other.ability_radius) {
             // Apply cleansing effect
             state = "cleansed";
-            alarm[0] = room_speed * 2; // 2 second cleanse
+			
+			alarm[0] = 5;
+			path_end(); 
         }
     }
 
