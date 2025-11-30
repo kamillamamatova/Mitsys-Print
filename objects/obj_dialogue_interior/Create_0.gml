@@ -1,3 +1,10 @@
+if (global.dialogue_rm_interior_shown) {
+    instance_destroy(); // Prevent dialogue box from appearing again
+    exit;               // Stop running the rest of the Create Event
+}
+
+global.dialogue_rm_interior_shown = true;
+
 // actual dialogue
 dialogue = ["I'm in the library.",
 			"Huh? These must be Misty's pawprints on the floor.",
