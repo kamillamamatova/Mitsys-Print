@@ -37,6 +37,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"GUI","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E3E04E8","properties":[],"isDnd":false,"objectId":{"name":"obj_LibraryDoorPuzzle","path":"objects/obj_LibraryDoorPuzzle/obj_LibraryDoorPuzzle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1C55C986","properties":[],"isDnd":false,"objectId":{"name":"obj_dialogue_exterior","path":"objects/obj_dialogue_exterior/obj_dialogue_exterior.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C7DAEA4","properties":[],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":224.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19BE513C","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":1312.0,},
@@ -932,6 +933,7 @@
     {"name":"inst_DA9239A","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_2F9A876E","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_1C55C986","path":"rooms/rm_exterior/rm_exterior.yy",},
+    {"name":"inst_6C7DAEA4","path":"rooms/rm_exterior/rm_exterior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
