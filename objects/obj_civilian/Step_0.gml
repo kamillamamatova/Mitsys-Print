@@ -1,4 +1,5 @@
-
+// Checks if the user pressed 'enter' to talk
+event_inherited();
 
 if (following_player) {
     // Get direction toward player
