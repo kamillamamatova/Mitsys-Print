@@ -28,6 +28,7 @@
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"GUI","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F4D45A6","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":13.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":320.0,"y":704.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51729F0D","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":498.0,"y":507.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"controllers","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
@@ -36,7 +37,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_x","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"0",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_y","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"0",},
           ],"isDnd":false,"objectId":{"name":"obj_inverted_door","path":"objects/obj_inverted_door/obj_inverted_door.yy",},"inheritCode":true,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":525.0,"y":342.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E2EA21C","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire_2","path":"objects/obj_maze_cheshire_2/obj_maze_cheshire_2.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_2E2EA21C","path":"rooms/rm_A/rm_A.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":480.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":{"name":"TileSet7","path":"tilesets/TileSet7/TileSet7.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":0,"SerialiseHeight":0,"TileSerialiseData":[
 ],},"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritVisibility":false,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -64,8 +64,8 @@
     {"name":"inst_5A81D607","path":"rooms/rm_wrong/rm_wrong.yy",},
     {"name":"inst_F3ADB0E","path":"rooms/rm_wrong/rm_wrong.yy",},
     {"name":"inst_3F4D45A6","path":"rooms/rm_wrong/rm_wrong.yy",},
-    {"name":"inst_2E2EA21C","path":"rooms/rm_wrong/rm_wrong.yy",},
     {"name":"inst_70CD80E0","path":"rooms/rm_wrong/rm_wrong.yy",},
+    {"name":"inst_51729F0D","path":"rooms/rm_wrong/rm_wrong.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
