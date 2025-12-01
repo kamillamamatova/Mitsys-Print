@@ -23,7 +23,7 @@ if(variable_struct_exists(global.char_portraits, _name)){
 if(_portrait_sprite != -1){
 	// Draws portrait on the left
 	// 2, 2 scales it by 2x
-	draw_sprite_ext(_portrait_sprite, 0, _dx, _dy, 2, 2, 0, c_white, 1);
+	draw_sprite_ext(_portrait_sprite, 0, _dx, _dy, 1, 1, 0, c_white, 1);
 	
 	// Moves the text cursor 100 pixels to the right so it doesn't sit on
 	// top of the face
