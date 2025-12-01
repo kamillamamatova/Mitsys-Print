@@ -24,7 +24,7 @@ global.char_portraits = {
 	"Daffodil" : spr_portrait_daffodil,
 	"Cosmo" : spr_portrait_cosmo,
 	"Tulip" : spr_portrait_tulip,
-	"Civilian" : spr_portrait_civilian,
+	"Civilian" : spr_portrait, // For testing
 }
 
 global.laugh_cat = [
