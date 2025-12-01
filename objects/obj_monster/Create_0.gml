@@ -1,3 +1,5 @@
+event_inherited();
+
 //Movement AI 
 move_speed = 1.2;
 wander_time = 0;
