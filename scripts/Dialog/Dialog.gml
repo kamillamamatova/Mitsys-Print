@@ -8,13 +8,13 @@ function create_dialog(_messages){
 
 
 global.char_colors = {
-	"Aribel" : c_aqua,
-	"Cheshire" : c_orange,
+	"Aribel" : c_purple,
+	"Cheshire" : c_fuchsia,
 	"Lily" : c_white,
 	"Daffodil" : c_yellow,
-	"Cosmo" : c_fuchsia,
+	"Cosmo" : c_orange,
 	"Tulip" : c_red,
-	"Civilian" : c_purple,
+	"Civilian" : c_aqua,
 }
 
 global.char_portraits = {
@@ -24,7 +24,7 @@ global.char_portraits = {
 	"Daffodil" : spr_portrait_daffodil,
 	"Cosmo" : spr_portrait_cosmo,
 	"Tulip" : spr_portrait_tulip,
-	"Civilian" : spr_portrait, // For testing
+	"Civilian" : spr_portrait_civilian,
 }
 
 global.laugh_cat = [
