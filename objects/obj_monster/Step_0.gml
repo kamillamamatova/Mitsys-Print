@@ -1,3 +1,5 @@
+event_inherited();
+
 /// Handle Cleansed State
 if (state == "cleansed") {
     speed = 0; 

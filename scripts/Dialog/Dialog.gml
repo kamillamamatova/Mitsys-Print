@@ -8,13 +8,13 @@ function create_dialog(_messages){
 
 
 global.char_colors = {
-	"Aribel" : c_aqua,
-	"Cheshire" : c_orange,
+	"Aribel" : c_purple,
+	"Cheshire" : c_fuchsia,
 	"Lily" : c_white,
 	"Daffodil" : c_yellow,
-	"Cosmo" : c_fuchsia,
+	"Cosmo" : c_orange,
 	"Tulip" : c_red,
-	"Civilian" : c_purple,
+	"Civilian" : c_aqua,
 }
 
 global.char_portraits = {
