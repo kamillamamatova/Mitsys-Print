@@ -1,3 +1,6 @@
+// Stops if there isn't a valid message selected yet
+if (current_message < 0) exit;
+
 var _dx = 0;
 var _dy = gui_h * 0.7;
 var _boxw = gui_w;
