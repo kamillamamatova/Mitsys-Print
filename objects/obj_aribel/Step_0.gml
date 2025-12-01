@@ -71,6 +71,8 @@ if (!ui_open) {
     if (xspd == 0 && yspd == 0) {
         image_index = 0;
     }
+	
+	depth = -bbox_bottom;
 
 } else {
     // UI OPEN → completely frozen in place

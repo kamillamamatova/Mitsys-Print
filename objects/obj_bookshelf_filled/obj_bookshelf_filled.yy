@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_instances_parent",
-    "path": "objects/obj_instances_parent/obj_instances_parent.yy",
+    "name": "obj_wall",
+    "path": "objects/obj_wall/obj_wall.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
