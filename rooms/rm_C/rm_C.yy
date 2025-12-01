@@ -49,7 +49,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27E4E165","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"value":"global.rmC_dialog",},
           ],"isDnd":false,"objectId":{"name":"obj_maze_cheshire_2","path":"objects/obj_maze_cheshire_2/obj_maze_cheshire_2.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E2EA21C","properties":[],"isDnd":false,"objectId":{"name":"obj_maze_cheshire_2","path":"objects/obj_maze_cheshire_2/obj_maze_cheshire_2.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_2E2EA21C","path":"rooms/rm_A/rm_A.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72A66552","properties":[],"isDnd":false,"objectId":{"name":"obj_mazedoor","path":"objects/obj_mazedoor/obj_mazedoor.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_72A66552","path":"rooms/rm_A/rm_A.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":597.0,"y":341.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7D1D4360","properties":[],"isDnd":false,"objectId":{"name":"obj_mazedoor","path":"objects/obj_mazedoor/obj_mazedoor.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_7D1D4360","path":"rooms/rm_A/rm_A.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":644.0,"y":341.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46695D09","properties":[],"isDnd":false,"objectId":{"name":"obj_mazedoor","path":"objects/obj_mazedoor/obj_mazedoor.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":460.0,"y":341.0,},
@@ -84,7 +83,6 @@
     {"name":"inst_27E4E165","path":"rooms/rm_C/rm_C.yy",},
     {"name":"inst_7E9C404C","path":"rooms/rm_C/rm_C.yy",},
     {"name":"inst_3F4D45A6","path":"rooms/rm_C/rm_C.yy",},
-    {"name":"inst_2E2EA21C","path":"rooms/rm_C/rm_C.yy",},
     {"name":"inst_72A66552","path":"rooms/rm_C/rm_C.yy",},
     {"name":"inst_7D1D4360","path":"rooms/rm_C/rm_C.yy",},
     {"name":"inst_46695D09","path":"rooms/rm_C/rm_C.yy",},
