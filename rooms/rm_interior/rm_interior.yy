@@ -460,6 +460,8 @@
     {"name":"inst_390DCA7A","path":"rooms/rm_interior/rm_interior.yy",},
     {"name":"inst_15B8CAE8","path":"rooms/rm_interior/rm_interior.yy",},
     {"name":"inst_5D561E4A","path":"rooms/rm_interior/rm_interior.yy",},
+    {"name":"inst_6DDBE395","path":"rooms/rm_interior/rm_interior.yy",},
+    {"name":"inst_1454FF8A","path":"rooms/rm_interior/rm_interior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

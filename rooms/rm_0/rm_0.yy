@@ -263,6 +263,7 @@
     {"name":"inst_6318A1D1","path":"rooms/rm_0/rm_0.yy",},
     {"name":"inst_5B3BD059","path":"rooms/rm_0/rm_0.yy",},
     {"name":"inst_4B550852","path":"rooms/rm_0/rm_0.yy",},
+    {"name":"inst_13DB1546","path":"rooms/rm_0/rm_0.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

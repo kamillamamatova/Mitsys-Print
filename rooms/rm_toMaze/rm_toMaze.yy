@@ -37,7 +37,9 @@
   "inheritLayers": false,
   "creationCodeFile": "",
   "inheritCode": false,
-  "instanceCreationOrder": [],
+  "instanceCreationOrder": [
+    {"name":"inst_16F80EFC","path":"rooms/rm_toMaze/rm_toMaze.yy",},
+  ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {

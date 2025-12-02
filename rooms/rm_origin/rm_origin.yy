@@ -29,6 +29,7 @@
   "instanceCreationOrder": [
     {"name":"inst_11934DE1","path":"rooms/rm_origin/rm_origin.yy",},
     {"name":"inst_4642580C","path":"rooms/rm_origin/rm_origin.yy",},
+    {"name":"inst_12F0A3CA","path":"rooms/rm_origin/rm_origin.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
