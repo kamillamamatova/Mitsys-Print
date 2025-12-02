@@ -22,12 +22,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"warps","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B204993_1","properties":[],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":1568.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5988BD28_1","properties":[],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":1568.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DDBE395","properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_x","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"545",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_y","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"355",},
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_rm","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"rm_origin",},
-          ],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":1312.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1454FF8A","properties":[],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":1312.0,},
       ],"visible":true,"depth":-300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"ts_libinterior","path":"tilesets/ts_libinterior/ts_libinterior.yy",},"x":2,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":125,"SerialiseHeight":125,"TileCompressedData":[
 -4797,-2147483648,32,181,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,164,148,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,1,268435619,-30,-2147483648,1,163,-93,-2147483648,
@@ -466,8 +460,6 @@
     {"name":"inst_390DCA7A","path":"rooms/rm_interior/rm_interior.yy",},
     {"name":"inst_15B8CAE8","path":"rooms/rm_interior/rm_interior.yy",},
     {"name":"inst_5D561E4A","path":"rooms/rm_interior/rm_interior.yy",},
-    {"name":"inst_6DDBE395","path":"rooms/rm_interior/rm_interior.yy",},
-    {"name":"inst_1454FF8A","path":"rooms/rm_interior/rm_interior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
