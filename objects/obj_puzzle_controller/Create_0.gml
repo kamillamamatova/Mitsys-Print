@@ -5,7 +5,7 @@ lever_count = 9;
 levers = array_create(lever_count);
 
 // MADNESS TIMER (10 seconds for example)
-madness_timer = room_speed * 240;
+madness_timer = room_speed * 120;
 
 // Puzzle not yet solved
 puzzle_solved = false;
