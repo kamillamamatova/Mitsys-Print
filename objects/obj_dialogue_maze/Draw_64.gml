@@ -15,7 +15,7 @@ draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, true);
 draw_set_font(fnt_exterior);
 
 // Padding around the text
-var padding = 2;
+var padding = 10;
 
 // Draw text that wraps to fit inside the box
 draw_text_ext(box_x + padding, box_y + padding, dialogue_text, -1, box_width - padding * 2);

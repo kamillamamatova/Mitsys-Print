@@ -15,7 +15,7 @@
     {"speed":100.0,"x":1120.0,"y":192.0,},
   ],
   "parent": {
-    "name": "Mitsy's Print",
-    "path": "Mitsy's Print.yyp",
+    "name": "Paths",
+    "path": "folders/Paths.yy",
   },
 }
