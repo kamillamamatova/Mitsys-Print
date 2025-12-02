@@ -1,5 +1,10 @@
 /// obj_aribel – Step
 
+// stop ALL movement until dialogue ends
+if (!global.move) {
+    exit;
+}
+
 //-------------------------------------
 // 1. Check if any UI (window/lock) is open
 //-------------------------------------

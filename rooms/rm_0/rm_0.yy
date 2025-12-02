@@ -92,6 +92,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_x","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"1200",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target_y","path":"objects/obj_warp/obj_warp.yy",},"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"value":"600",},
           ],"isDnd":false,"objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":624.0,"y":512.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_75D6F747","properties":[],"isDnd":false,"objectId":{"name":"obj_dialogue_maze","path":"objects/obj_dialogue_maze/obj_dialogue_maze.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":784.0,},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":{"name":"TileSet7","path":"tilesets/TileSet7/TileSet7.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":69,"SerialiseHeight":69,"TileCompressedData":[
 -1391,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,-2147483648,-44,0,-25,
@@ -269,6 +270,7 @@
     {"name":"inst_5B3BD059","path":"rooms/rm_0/rm_0.yy",},
     {"name":"inst_4B550852","path":"rooms/rm_0/rm_0.yy",},
     {"name":"inst_7998F3D7","path":"rooms/rm_0/rm_0.yy",},
+    {"name":"inst_75D6F747","path":"rooms/rm_0/rm_0.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
