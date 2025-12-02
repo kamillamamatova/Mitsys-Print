@@ -1,5 +1,3 @@
-event_inherited();
-
 //Movement AI 
 // Create a path resource instance (you can reuse the same one)
 monster_path = path_add(); 

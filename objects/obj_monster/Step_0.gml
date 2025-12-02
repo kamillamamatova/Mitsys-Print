@@ -1,11 +1,4 @@
-event_inherited();
-
-/// Handle Cleansed State
-if (state == "cleansed") {
-    image_blend = c_white;
-} else {
-    image_blend = c_red;
-}
+/// Path Finding AI
 
 if (path_index != monster_path)
 {
