@@ -1,6 +1,5 @@
 // drawing GUI for prologue
 
-// Set up box visuals
 var box_x = 150;
 var box_y = 150;
 var box_width = 750;
@@ -14,7 +13,7 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 draw_rectangle(box_x, box_y, box_x + box_width, box_y + box_height, true);
 
-draw_set_font(fnt_prologue_box);
+draw_set_font(fnt_prologue);
 
 // Padding around the text
 var padding = 25;
