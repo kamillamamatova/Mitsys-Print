@@ -1,14 +1,13 @@
 if (global.dialogue_rm_exterior_shown) {
-    instance_destroy(); // Prevent dialogue box from appearing again
-    exit;               // Stop running the rest of the Create Event
+	instance_destroy();
+    exit;
 }
 
 display_set_gui_size(683, 384);
 gpu_set_texfilter(false);
 
 // actual dialogue
-dialogue = ["Whoa where am I?",
-			"I guess I better find Misty and see where she ran off to.",
+dialogue = ["I better chase after Misty and see where she ran off to.",
 			"I think I saw her running off to the library.",
 			"** Use the WASD or arrow keys to move Aribel **",
 			"** Press shift to sprint **",

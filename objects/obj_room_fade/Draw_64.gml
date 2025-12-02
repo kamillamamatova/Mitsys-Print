@@ -7,5 +7,3 @@ if (alpha > 0) {
     draw_rectangle(0, 0, w, h, false);
     draw_set_alpha(1); // restore
 }
-
-
