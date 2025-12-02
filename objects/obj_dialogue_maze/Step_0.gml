@@ -16,6 +16,7 @@ if (!finished) {
                 finished = false;
             }
 			else {
+				global.move = true;
                 instance_destroy();
 			}
         }
