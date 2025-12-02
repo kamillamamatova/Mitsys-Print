@@ -1,6 +1,6 @@
-if (global.dialogue_rm_interior_shown) {
-    instance_destroy(); // Prevent dialogue box from appearing again
-    exit;               // Stop running the rest of the Create Event
+if (global.dialogue_rm_exterior_shown) {
+	instance_destroy();
+    exit;
 }
 
 // actual dialogue
