@@ -12,3 +12,5 @@ global.narration_rm0 = false;
 
 // global Aribel movement flags
 global.move = true;
+
+global.volume = 1;
