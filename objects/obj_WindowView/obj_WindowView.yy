@@ -7,7 +7,7 @@
     "path": "sprites/Sprite91/Sprite91.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

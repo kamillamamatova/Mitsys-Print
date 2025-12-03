@@ -1,6 +1,10 @@
 xspd = 0;
 yspd = 0;
 
+if (!variable_global_exists("move")) {
+    global.move = true;  // or false, whatever your default "can move" state is
+}
+
 move_spd = 2;
 
 sprite[RIGHT] = spr_aribel_right;
