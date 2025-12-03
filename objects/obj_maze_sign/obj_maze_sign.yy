@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_rmB_lily",
+  "name": "obj_maze_sign",
   "spriteId": {
-    "name": "spr_rmB_lily",
-    "path": "sprites/spr_rmB_lily/spr_rmB_lily.yy",
+    "name": "spr_sign",
+    "path": "sprites/spr_sign/spr_sign.yy",
   },
   "solid": false,
   "visible": true,
