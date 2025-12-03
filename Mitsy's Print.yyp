@@ -68,6 +68,7 @@
     {"id":{"name":"Sprite96","path":"sprites/Sprite96/Sprite96.yy",},"order":61,},
     {"id":{"name":"spr_rmB_cosmo","path":"sprites/spr_rmB_cosmo/spr_rmB_cosmo.yy",},"order":9,},
     {"id":{"name":"spr_maze_door_inverted","path":"sprites/spr_maze_door_inverted/spr_maze_door_inverted.yy",},"order":49,},
+    {"id":{"name":"obj_dialogue_cthulhu","path":"objects/obj_dialogue_cthulhu/obj_dialogue_cthulhu.yy",},"order":13,},
     {"id":{"name":"spr_bookpile","path":"sprites/spr_bookpile/spr_bookpile.yy",},"order":0,},
     {"id":{"name":"obj_dev_tools","path":"objects/obj_dev_tools/obj_dev_tools.yy",},"order":26,},
     {"id":{"name":"obj_lamp","path":"objects/obj_lamp/obj_lamp.yy",},"order":4,},
