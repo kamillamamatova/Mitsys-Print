@@ -13,10 +13,10 @@ function check_puzzle_complete()
     // Puzzle solved!
     puzzle_solved = true;
 
-    //with (obj_safe)
-    //{
-    //    open_safe();
-    //}
+    with (obj_safe)
+    {
+        is_open = true;
+    }
 
     show_message("The mechanism has been restored...");
 }
