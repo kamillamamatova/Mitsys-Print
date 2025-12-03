@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_monster",
   "spriteId": {
-    "name": "spr_cheshire",
-    "path": "sprites/spr_cheshire/spr_cheshire.yy",
+    "name": "spr_spirit_boss",
+    "path": "sprites/spr_spirit_boss/spr_spirit_boss.yy",
   },
   "solid": true,
   "visible": true,
