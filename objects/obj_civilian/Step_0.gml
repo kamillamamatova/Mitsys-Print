@@ -1,6 +1,3 @@
-// Checks if the user pressed 'enter' to talk
-event_inherited();
-
 if (following_player) {
     // Get direction toward player
     var dir = point_direction(x, y, obj_aribel.x, obj_aribel.y);
