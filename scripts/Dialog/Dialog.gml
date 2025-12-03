@@ -44,21 +44,21 @@ global.rmA_dialog = [
 global.rmB_dialog = [
 {
 	name: "Cheshire",
-	msg: "Follow the guilty to the correct door."
+	msg: "Follow the guilty to the correct door, but heed that only one flower speaks the truth."
 }
 ]
 
 global.rmB_dialog_lily = [
 {
 	name: "Lily",
-	msg: "Cosmo is truthful!"
+	msg: "The Cosmo is truthful!"
 }
 ]
 
 global.rmB_dialog_daffodil = [
 {
 	name: "Daffodil",
-	msg: "It wasn't me!"
+	msg: "The Tulip always lies."
 }
 ]
 

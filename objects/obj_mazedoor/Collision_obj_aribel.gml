@@ -19,7 +19,7 @@ if (is_correct)
 {
 	if (global.ch_puzzle_transition_lock) exit;
 	
-    // ✅ Correct door → next puzzle room
+    // Correct door → next puzzle room
     _rm  = target_room_correct;
     _pos = scr_ch_spawn_for_room(_rm);
     _tx  = _pos.x;
@@ -52,7 +52,7 @@ show_debug_message("INCORRECT DOOR: count AFTER = "
     + string(global.ch_puzzle_incorrect_count));
 	
 	
-    // ❌ Incorrect door → incorrect/dead-end room
+    // Incorrect door → incorrect/dead-end room
    // global.ch_puzzle_incorrect_count += 1;
 
     _rm  = rm_wrong;

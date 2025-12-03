@@ -13,6 +13,6 @@ if (!variable_global_exists("ch_puzzle_initialized"))
     // Last visited puzzle room starts as first room
     global.ch_puzzle_last_room  = rm_0;
 	
-	// NEW: lock starts off
+
     global.ch_puzzle_transition_lock = false;
 }

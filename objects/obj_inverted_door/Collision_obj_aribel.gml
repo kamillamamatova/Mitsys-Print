@@ -1,13 +1,8 @@
 /// obj_ch_wrong_exit: Collision with obj_aribel
 
-show_debug_message("WRONG EXIT: count = " 
-    + string(global.ch_puzzle_incorrect_count)
-    + " / max = " + string(global.ch_puzzle_max_incorrect));
 
 var _player = other;
 
-// DEBUG – optional but useful
-show_debug_message("DEBUG: wrong-exit collision in " + room_get_name(room));
 
 // Ensure fade controller exists and get reference
 var _fade;
@@ -34,7 +29,7 @@ var _pos;
 // OUT OF CHANCES or NO VALID LAST ROOM → reset to first room
 if (global.ch_puzzle_incorrect_count >= global.ch_puzzle_max_incorrect || !_has_last_room)
 {
-    show_debug_message("→ Cheshire: RESET to first room");
+
 
     global.ch_puzzle_incorrect_count = 0;
 
@@ -43,7 +38,7 @@ if (global.ch_puzzle_incorrect_count >= global.ch_puzzle_max_incorrect || !_has_
 }
 else
 {
-    show_debug_message("→ Cheshire: return to last puzzle room");
+   
 
     _rm  = global.ch_puzzle_last_room;
     _pos = scr_ch_spawn_for_room(_rm);
@@ -56,8 +51,6 @@ var _ty = _pos.y;
 if (!is_real(_tx)) _tx = _player.x;
 if (!is_real(_ty)) _ty = _player.y;
 
-show_debug_message("Cheshire wrong-exit target: " +
-    room_get_name(_rm) + " (" + string(_tx) + ", " + string(_ty) + ")");
 
 // Start fade transition
 with (_fade) {
