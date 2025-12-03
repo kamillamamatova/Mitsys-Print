@@ -1,1 +1,1 @@
-depth = -bbox_bottom;
+event_inherited();

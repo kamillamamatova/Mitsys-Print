@@ -1,3 +1,6 @@
+event_inherited();
+
+
 if(instance_exists(obj_dialog)) exit;
 
 if(instance_exists(obj_aribel) && distance_to_object(obj_aribel) < 8)

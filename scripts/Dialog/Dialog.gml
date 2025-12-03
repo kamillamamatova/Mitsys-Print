@@ -44,35 +44,35 @@ global.rmA_dialog = [
 global.rmB_dialog = [
 {
 	name: "Cheshire",
-	msg: "Follow the guilty to the correct door."
+	msg: "Follow the guilty to the correct door, but heed that only one flower speaks the truth."
 }
 ]
 
 global.rmB_dialog_lily = [
 {
 	name: "Lily",
-	msg: "Cosmo did it!"
+	msg: "The Cosmo is truthful!"
 }
 ]
 
 global.rmB_dialog_daffodil = [
 {
 	name: "Daffodil",
-	msg: "It wasn't me!"
+	msg: "The Tulip always lies."
 }
 ]
 
 global.rmB_dialog_cosmo = [
 {
 	name: "Cosmo",
-	msg: "Lily is lying!"
+	msg: "Tulip did it!"
 }
 ]
 
 global.rmB_dialog_tulip = [
 {
 	name: "Tulip",
-	msg: "Daffodil is lying!"
+	msg: "Lily may be a liar but I know she didn't do it!"
 }
 
 ]
@@ -88,17 +88,7 @@ global.rmC_dialog = [
 }
 ]
 
-global.rmD_dialog = [
-{
-	name: "Cheshire",
-	msg: "That's all I got for now unfortunately."
-},
-{
-	name: "Cheshire",
-	msg:"My creators want to thank you for checking out what they got for now!"
-}
 
-]
 
 global.rm0_dialog = [
 { 
@@ -141,6 +131,280 @@ global.rm0_dialog = [
 	msg: "Let the eyes of the maze choose the door..."
 }
 ]
+
+
+global.rmD_dialog = [
+
+{ 
+	name: "Cheshire",
+	msg: "At least one sign utters truth, and at least another utters lies..."
+},
+{ 
+	name: "Cheshire",
+	msg: "Inspect their claims to find your way."
+},
+
+
+
+
+]
+
+
+global.rm_D_red = [
+
+
+{ 
+	name: "Red",
+	msg: "One of the other signs is false"
+},
+
+]
+//Correct Path
+global.rm_D_blue = [
+
+
+{ 
+	name: "Blue",
+	msg: "My door leads to an incorrect way"
+},
+
+]
+
+global.rm_D_yellow = [
+
+
+{ 
+	name: "Yellow",
+	msg: "The red sign is true"
+},
+
+]
+
+
+////////////
+
+
+global.rm_E_dialog = [
+
+{ 
+	name: "Cheshire",
+	msg: "Must I repeat myself?"
+},
+
+
+{ 
+	name: "Cheshire",
+	msg: "At least one sign utters truth, and at least another utters lies..."
+},
+{ 
+	name: "Cheshire",
+	msg: "Inspect their merits to find your way."
+},
+
+
+
+
+]
+
+
+global.rm_E_red = [
+
+
+{ 
+	name: "Red",
+	msg: "The yellow sign precedes the true path"
+},
+
+]
+
+global.rm_E_blue = [
+
+
+{ 
+	name: "Blue",
+	msg: "This sign and the red sign lead to incorrect paths"
+},
+
+]
+
+//correct
+
+global.rm_E_yellow = [
+
+
+{ 
+	name: "Yellow",
+	msg: "All three signs lead to incorrect paths"
+},
+
+]
+
+
+////////////
+
+
+global.rm_F_dialog = [
+
+{ 
+	name: "Cheshire",
+	msg: "..."
+},
+
+
+{ 
+	name: "Cheshire",
+	msg: "At least one sign utters truth, and at least another utters lies..."
+},
+{ 
+	name: "Cheshire",
+	msg: "The third can be either trutful or dishonest, in case that wasn't clear."
+},
+
+
+
+
+]
+
+//correct
+global.rm_F_red = [
+
+
+{ 
+	name: "Red",
+	msg: "This sign precedes the true path."
+},
+
+]
+
+global.rm_F_blue = [
+
+
+{ 
+	name: "Blue",
+	msg: "..."
+},
+
+]
+
+global.rm_F_yellow = [
+
+
+{ 
+	name: "Yellow",
+	msg: "The red sign precedes the true path"
+},
+
+]
+
+////////////
+
+
+global.rm_G_dialog = [
+
+{ 
+	name: "Cheshire",
+	msg: "..."
+},
+
+
+{ 
+	name: "Cheshire",
+	msg: "'At least one of the signs tells you the truth, at least one lies"
+},
+
+]
+
+
+global.rm_G_red = [
+
+
+{ 
+	name: "Red",
+	msg: "The yellow sign is true."
+},
+
+]
+
+//correct
+global.rm_G_blue = [
+
+
+{ 
+	name: "Blue",
+	msg: "The truthful sign precedes the correct path."
+},
+
+]
+
+global.rm_G_yellow = [
+
+
+{ 
+	name: "Yellow",
+	msg: "The red sign is telling the truth."
+},
+
+]
+
+////////////
+
+
+global.rm_H_dialog = [
+
+{ 
+	name: "Cheshire",
+	msg: "..."
+},
+
+{ 
+	name: "Cheshire",
+	msg: "How have you made it this far?"
+},
+
+
+{ 
+	name: "Cheshire",
+	msg: "'At least one of the signs tells you the truth, at least one lies."
+},
+
+]
+
+
+global.rm_H_red = [
+
+
+{ 
+	name: "Red",
+	msg: "The correct path is not next to the yellow sign"
+},
+
+]
+// correct
+global.rm_H_blue = [
+
+
+{ 
+	name: "Blue",
+	msg: "I am as truthful as the yellow sign"
+},
+
+]
+
+global.rm_H_yellow = [
+
+
+{ 
+	name: "Yellow",
+	msg: "The correct path is next to the blue sign."
+},
+
+]
+
+
+
+
+
+
 
 global.dock_dialog = [
 	{ name: "Civilian", msg: "I... I can't escape!" },
