@@ -1,28 +1,18 @@
-/// obj_WindowView – Step (DEBUG VERSION)
+/// obj_WindowView
 
-var p = obj_aribel; // <-- change this if your player has a different name
-if (!instance_exists(p))
-{
-    show_debug_message("DEBUG: No player instance found!");
-    exit;
-}
+var p = obj_aribel; 
+
 
 var dist = point_distance(x, y, p.x, p.y);
-var can_interact = (dist < 72);  // easier to trigger for testing
+var can_interact = (dist < 72); 
 
-if (can_interact)
-{
-    show_debug_message("DEBUG: Player near window. dist=" + string(dist));
-}
 
 if (can_interact && keyboard_check_pressed(vk_enter))
 {
-    show_debug_message("DEBUG: Enter pressed. Attempting to open window view...");
     
     var ctl = instance_find(obj_LibraryDoorPuzzle, 0);
     if (instance_exists(ctl))
     {
-        show_debug_message("DEBUG: Controller found. Opening...");
         
         ctl.viewing_window    = true;
         ctl.current_window_id = id;

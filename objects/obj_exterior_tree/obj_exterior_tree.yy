@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_origin_tree",
+  "name": "obj_exterior_tree",
   "spriteId": {
-    "name": "spr_alice_origin_tree",
-    "path": "sprites/spr_alice_origin_tree/spr_alice_origin_tree.yy",
+    "name": "spr_exterior_tree",
+    "path": "sprites/spr_exterior_tree/spr_exterior_tree.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,13 +27,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "alice_in_wonderland",
-    "path": "folders/Objects/alice_in_wonderland.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

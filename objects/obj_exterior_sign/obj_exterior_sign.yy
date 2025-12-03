@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_origin_tree",
+  "name": "obj_exterior_sign",
   "spriteId": {
-    "name": "spr_alice_origin_tree",
-    "path": "sprites/spr_alice_origin_tree/spr_alice_origin_tree.yy",
+    "name": "spr_exterior_sign",
+    "path": "sprites/spr_exterior_sign/spr_exterior_sign.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_instances_parent",
-    "path": "objects/obj_instances_parent/obj_instances_parent.yy",
+    "name": "obj_gui_image_window",
+    "path": "objects/obj_gui_image_window/obj_gui_image_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "alice_in_wonderland",
-    "path": "folders/Objects/alice_in_wonderland.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
