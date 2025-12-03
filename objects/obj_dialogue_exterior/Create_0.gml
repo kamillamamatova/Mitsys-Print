@@ -11,7 +11,7 @@ if (!global.narration_exterior_shown) {
 				"I think I saw her running off to the library.",
 				"** Use the WASD or arrow keys to move Aribel **",
 				"** Press shift to sprint **",
-				"Goal: Find Misty the library",
+				"Goal: Find the library.",
 	];
 
 	text_index = 0;          // Which line we’re on
