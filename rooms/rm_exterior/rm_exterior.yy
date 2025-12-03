@@ -6,7 +6,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":400,"hview":300,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":1000,"vborder":1000,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_aribel","path":"objects/obj_aribel/obj_aribel.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":400,"hview":300,"xport":0,"yport":0,"wport":1024,"hport":768,"hborder":200,"vborder":150,"hspeed":-100,"vspeed":-100,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -38,6 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7E3E04E8","properties":[],"isDnd":false,"objectId":{"name":"obj_LibraryDoorPuzzle","path":"objects/obj_LibraryDoorPuzzle/obj_LibraryDoorPuzzle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6DEA7E47","properties":[],"isDnd":false,"objectId":{"name":"obj_dialogue_exterior","path":"objects/obj_dialogue_exterior/obj_dialogue_exterior.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":98.0,"y":2.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_58BE8E9F","properties":[],"isDnd":false,"objectId":{"name":"obj_vignette","path":"objects/obj_vignette/obj_vignette.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_66C304B4","properties":[],"isDnd":false,"objectId":{"name":"obj_camera_controller","path":"objects/obj_camera_controller/obj_camera_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":0.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_19BE513C","properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":1312.0,},
@@ -975,6 +976,7 @@
     {"name":"inst_7876896A","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_21F4A6B1","path":"rooms/rm_exterior/rm_exterior.yy",},
     {"name":"inst_58BE8E9F","path":"rooms/rm_exterior/rm_exterior.yy",},
+    {"name":"inst_66C304B4","path":"rooms/rm_exterior/rm_exterior.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
