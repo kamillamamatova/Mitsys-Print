@@ -8,14 +8,13 @@ Misty’s Prints is a PC story-driven, puzzle-based RPG where the user plays as 
 - **Prologue:** Story introduction, explore the library, and follow visuals to the first book
 - **Book 1:** Alice’s Adventures in Wonderland
 - **Book 2:** The Call of Cthulhu
-- **Book 3:** The Phantom of the Opera
 - **Conclusion:** Unlock the library study where Misty is found sleeping, gets found by the bookkeeper, and final cutscene
 
 ## Game Engine
 GameMaker Studio 2 will be utilized to streamline development and avoid unnecessary clutter that would come with using an engine non-specific to 2D development.
 
 ## Roles/Organization and Collaboration Tools:
-- **Yasmeen Moufakkir:** Project Manager and Art/Assets
-- **Kamilla Mamatova:** AI Hint Director and Systems Integration
-- **Gabbie Coronel:** Generative AI Elements & NPC Pathing/Dialogue
-- **Martin Inciarte and Darel Gomez:** Puzzle and Map Creation
+- **Yasmeen Moufakkir:** Project Manager & Art/Assets
+- **Kamilla Mamatova:** Game Settings & Systems Integration
+- **Gabbie Coronel:** Prologue Cutscene Creation, Music, & Narration
+- **Martin Inciarte & Darel Gomez:** Puzzle & Map Creation

@@ -1,1 +1,0 @@
-dialog = global.dock_dialog;

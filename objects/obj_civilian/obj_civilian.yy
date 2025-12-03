@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_civilian",
   "spriteId": {
-    "name": "spr_civilian",
-    "path": "sprites/spr_civilian/spr_civilian.yy",
+    "name": "spr_warrior",
+    "path": "sprites/spr_warrior/spr_warrior.yy",
   },
   "solid": false,
   "visible": true,

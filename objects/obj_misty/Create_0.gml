@@ -7,5 +7,5 @@ if (room == rm_prologue) {
 
 // if Misty is in rm_exterior
 if (room == rm_exterior) {
-	path_start(pt_prologue, 2.25, path_action_stop, false);
+	path_start(pt_misty, 2.25, path_action_stop, false);
 }

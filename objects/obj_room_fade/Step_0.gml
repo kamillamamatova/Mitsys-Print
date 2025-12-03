@@ -17,4 +17,3 @@ switch (state) {
         }
         break;
 }
-

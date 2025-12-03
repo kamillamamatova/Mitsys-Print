@@ -1,5 +1,19 @@
 /// obj_aribel – Step
 
+// make Airbel face the same way             
+sprite_index = sprite[face];
+	
+// stop all movement until dialogue ends
+if (!global.move) {
+	
+    // Aribel doesn't move during narrative dialogue
+	image_speed = 0;
+    exit;
+}
+
+// allowing Aribel to move after narrative dialogue ends
+image_speed = 1;
+
 //-------------------------------------
 // 1. Check if any UI (window/lock) is open
 //-------------------------------------
@@ -117,7 +131,9 @@ if (ability_active) {
         if (dist < other.ability_radius) {
             // Apply cleansing effect
             state = "cleansed";
-            alarm[0] = room_speed * 2; // 2 second cleanse
+			
+			alarm[0] = 5;
+			path_end(); 
         }
     }
 
@@ -136,7 +152,6 @@ if (keyboard_check_pressed(ord("E"))) {
         following_player = true;
     }
 }
-
 //if (keyboard_check_pressed(ord("E"))) {
 //    with (obj_civilian) {
 //        following_player = !following_player; // toggles follow on/off

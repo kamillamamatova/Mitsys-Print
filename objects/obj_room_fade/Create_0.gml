@@ -19,4 +19,3 @@ function start_transition(_room, _x, _y) {
     target_y    = _y;
     state       = FadeState.FadingOut;
 }
-
