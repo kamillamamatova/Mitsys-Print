@@ -159,6 +159,7 @@
     {"id":{"name":"spr_aribel_up","path":"sprites/spr_aribel_up/spr_aribel_up.yy",},"order":20,},
     {"id":{"name":"spr_portrait_aribel","path":"sprites/spr_portrait_aribel/spr_portrait_aribel.yy",},"order":9,},
     {"id":{"name":"spr_inverted_labrynth","path":"sprites/spr_inverted_labrynth/spr_inverted_labrynth.yy",},"order":49,},
+    {"id":{"name":"obj_warp_misty","path":"objects/obj_warp_misty/obj_warp_misty.yy",},"order":6,},
     {"id":{"name":"obj_maze_sign","path":"objects/obj_maze_sign/obj_maze_sign.yy",},"order":18,},
     {"id":{"name":"spr_alice_origin_tree","path":"sprites/spr_alice_origin_tree/spr_alice_origin_tree.yy",},"order":62,},
     {"id":{"name":"TileSet8","path":"tilesets/TileSet8/TileSet8.yy",},"order":7,},
