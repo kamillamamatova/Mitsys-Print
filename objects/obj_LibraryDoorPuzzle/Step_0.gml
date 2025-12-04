@@ -1,14 +1,14 @@
 /// obj_LibraryDoorPuzzle – Step
 
 // 1. Close window view with ESC
-if (viewing_window && keyboard_check_pressed(vk_escape)) {
+if (viewing_window && keyboard_check_pressed(ord("Q"))) {
     viewing_window    = false;
     current_window_id = noone;
     ui_open           = false;
 }
 
 // 2. Close code entry with ESC
-if (entering_code && keyboard_check_pressed(vk_escape)) {
+if (entering_code && keyboard_check_pressed(ord("Q"))) {
     entering_code = false;
     code_input    = "";
     ui_open       = false;
@@ -55,7 +55,7 @@ if (entering_code) {
     }
 
     // ESC to cancel
-    if (keyboard_check_pressed(vk_escape)) {
+    if (keyboard_check_pressed(ord("Q"))) {
         entering_code = false;
         ui_open       = false;
         code_input    = "";

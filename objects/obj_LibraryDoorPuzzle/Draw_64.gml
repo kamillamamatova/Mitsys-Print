@@ -54,7 +54,7 @@ if (viewing_window)
     // Title + hint
     draw_set_color(c_white);
     draw_text(gui_w * 0.5, panel_y1 - 28, "Library Window");
-    draw_text(gui_w * 0.5, panel_y2 + 20, "Press ESC to step away");
+    draw_text(gui_w * 0.5, panel_y2 + 20, "Press 'Q' to step away");
 }
 
 /////////////////////////////////////
@@ -119,7 +119,7 @@ if (entering_code)
     // Controls hint
     draw_set_color(c_ltgray);
     draw_set_halign(fa_center);
-    draw_text(gui_w * 0.5, by2 - 24, "Type digits, ENTER to confirm, ESC to cancel");
+    draw_text(gui_w * 0.5, by2 - 24, "Type digits, ENTER to confirm, 'Q' to cancel");
 }
 
 // Restore alignment

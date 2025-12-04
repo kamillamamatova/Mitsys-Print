@@ -63,4 +63,4 @@ draw_sprite_ext(
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
-draw_text(gui_w * 0.5, py + panel_h - padding, "Press ESC or Enter to step away");
+draw_text(gui_w * 0.5, py + panel_h - padding, "Press 'Q' or Enter to step away");

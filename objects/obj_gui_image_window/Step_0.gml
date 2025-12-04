@@ -5,7 +5,7 @@ if (player == noone) exit;
 
 // If the GUI is already open, just handle closing:
 if (gui_is_open) {
-    if (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_enter)) {
+    if (keyboard_check_pressed(ord("Q")) || keyboard_check_pressed(vk_enter)) {
         gui_is_open = false;
     }
     exit;
