@@ -6,10 +6,13 @@ if (!global.narration_monsters) {
     // actual dialogue
     dialogue = [
         "Oh my.. there's so many monsters and rubble everywhere",
-        "How will I get across?",
+		"I see another civilian on the other side!",
+		"I should go talk to him.",
+        "But how will I get across?",
+		"Oh I can use the cleansing mist to help me!",
         "** Use the cleansing mist to get through, avoiding the monsters and rubble",
         "** Hold 'C' to create the cleansing mist **",
-        "Goal: Escape the monsters using the cleansing mist and get to the other side"
+        "Goal: Escape the monsters using the cleansing mist and talk to the civilian."
     ];
 
     text_index = 0;      
@@ -20,7 +23,6 @@ if (!global.narration_monsters) {
 
     // mark narration as already shown
     global.narration_monsters = true;
-	global.move = true;
 }
 
 else {

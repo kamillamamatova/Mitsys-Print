@@ -14,7 +14,6 @@ if (!global.narration_mist) {
 	finished = false;
 	
 	global.narration_mist = true;
-	global.move = true;
 }
 
 else {
