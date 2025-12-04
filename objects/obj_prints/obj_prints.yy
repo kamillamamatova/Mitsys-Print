@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_misty",
+  "name": "obj_prints",
   "spriteId": {
-    "name": "spr_misty_right",
-    "path": "sprites/spr_misty_right/spr_misty_right.yy",
+    "name": "spr_rmA_cat_prints",
+    "path": "sprites/spr_rmA_cat_prints/spr_rmA_cat_prints.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,14 +24,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "library objects",
+    "path": "folders/Objects/library objects.yy",
   },
 }
