@@ -1,5 +1,5 @@
 /// Path Finding AI
-
+if (global.monsters_go) {
 if (path_index != monster_path)
 {
     speed = 0;
@@ -24,6 +24,6 @@ if (place_meeting(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, dire
 	y = 0;
 }
 
-
 x += lengthdir_x(speed, direction);
 y += lengthdir_y(speed, direction);
+}

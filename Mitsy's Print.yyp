@@ -93,6 +93,8 @@
     {"id":{"name":"spr_window2","path":"sprites/spr_window2/spr_window2.yy",},"order":7,},
     {"id":{"name":"spr_accessories","path":"sprites/spr_accessories/spr_accessories.yy",},"order":15,},
     {"id":{"name":"obj_safe","path":"objects/obj_safe/obj_safe.yy",},"order":11,},
+    {"id":{"name":"obj_dialogue_monsters","path":"objects/obj_dialogue_monsters/obj_dialogue_monsters.yy",},"order":18,},
+    {"id":{"name":"obj_dialogue_levers","path":"objects/obj_dialogue_levers/obj_dialogue_levers.yy",},"order":19,},
     {"id":{"name":"obj_chandelier","path":"objects/obj_chandelier/obj_chandelier.yy",},"order":52,},
     {"id":{"name":"rm_monsters","path":"rooms/rm_monsters/rm_monsters.yy",},"order":1,},
     {"id":{"name":"rm_C","path":"rooms/rm_C/rm_C.yy",},"order":2,},
