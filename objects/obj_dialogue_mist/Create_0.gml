@@ -3,7 +3,10 @@ if (!global.narration_mist) {
 	// prevent the player from moving to read the dialogue
 	global.move = false;
 	// actual dialogue
-	dialogue = ["** Press 'E' to make the civilians follow you. **",
+	dialogue = ["I see another civilian on the other side!",
+				"I should help these civilians get across the mist.",
+				"** Press and spam 'E' to make the civilians follow you. **",
+				"** Avoid the rubble and use the cleansing mist to help get through.",
 				"Goal: Get the civilians safely through the mist to the other side."
 	];
 

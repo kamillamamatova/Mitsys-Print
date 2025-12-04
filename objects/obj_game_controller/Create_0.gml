@@ -18,3 +18,6 @@ global.monsters_go = false;
 global.move = true;
 
 global.volume = 1;
+
+// Forces the GUI layer to match the pixel art resolution
+//display_set_gui_size(320, 420);
