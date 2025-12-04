@@ -1,5 +1,7 @@
 /// obj_room_fade — persist across rooms to handle fades
 persistent           = true;
+flash_white = false;
+
 
 enum FadeState { Idle, FadingOut, FadingIn }
 

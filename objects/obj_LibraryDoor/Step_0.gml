@@ -14,20 +14,24 @@ if (instance_exists(ctl)) {
 if (is_open) {
     var p = obj_aribel;
     if (instance_exists(p)) {
-        var dist = point_distance(x, y, p.x, p.y);
-        if (dist < 48 && keyboard_check_pressed(vk_enter)) {
 
-            // OLD:
-            // room_goto(rm_interior);
+        // --- compensate for bottom-center origin on Aribel ---
+        var px = p.x;
+        var half_h = sprite_get_height(p.sprite_index) * 0.5;
+        var py = p.y - half_h;   // "center" of her body, not her feet
 
-            // NEW: use room_fade
+        var dist = point_distance(x, y, px, py);
+        if (dist < 56 && keyboard_check_pressed(vk_enter)) {
+            // (56 instead of 48 for a bit more forgiveness)
+
+            // Use room fade
             if (!instance_exists(obj_room_fade)) {
                 instance_create_layer(0, 0, "Instances", obj_room_fade);
             }
 
             var _rm = rm_interior; // your interior room
-            var _tx = 1006;    // you can store these as vars on the door
-            var _ty = 1518
+            var _tx = 1006;        // spawn x
+            var _ty = 1518;        // spawn y
             with (obj_room_fade) {
                 start_transition(_rm, _tx, _ty);
             }
