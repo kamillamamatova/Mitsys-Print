@@ -9,6 +9,7 @@ global.sound_on = true;
 global.narration_exterior_shown = false;
 global.narration_interior_shown = false;
 global.narration_rm0 = false;
+global.narration_mist= false;
 
 // global Aribel movement flags
 global.move = true;
