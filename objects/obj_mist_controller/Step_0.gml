@@ -1,19 +1,19 @@
 if (puzzle_complete) exit;
 
-// Check if player crossed
-if (place_meeting(obj_aribel.x, obj_aribel.y, obj_mist_goal)) {
+// Player must reach scientist too
+if (place_meeting(obj_aribel.x, obj_aribel.y, obj_scientist)) {
     player_crossed = true;
 }
 
-// Count civilians that crossed
+// Count civilians that reached scientist
 var crossed = 0;
 
 with (obj_civilian) {
     if (has_crossed) crossed++;
 }
 
-// If everyone crossed
-if (crossed == total_civilians && player_crossed) {
+// If ALL civilians and the player reached scientist
+if (crossed == total_civilians) {
     puzzle_complete = true;
     puzzle_finished();
 }
@@ -26,10 +26,11 @@ function puzzle_finished() {
         following_player = false;
     }
 
-    // Trigger ending dialogue
-    //var d = instance_create_layer(0, 0, "GUI", obj_textbox);
-    //d.text = "Thank you, traveler... You saved us from the cursed mist.\n\nFollow the northern path to the Shrine of Echoes.";
-
+    // Remove rubble blocking exit
+    with (obj_rubble) {
+        instance_destroy();
+    }
+	
     // Unlock next puzzle
     global.mist_puzzle_done = true;
 }
