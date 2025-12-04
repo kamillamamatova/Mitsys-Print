@@ -1,16 +1,10 @@
 //Movement AI 
 // Create a path resource instance (you can reuse the same one)
-monster_path = -1;
+monster_path = path_add(); 
 
-if (global.monsters_go) {
-    monster_path = path_add();
-    alarm[0] = 60;
+// Set an alarm to control how often the path recalculates (e.g., every 1 second)
+alarm[0] = 60;
 
-    state = "normal";
-    image_blend = c_red;
-    speed = 1; // IMPORTANT — must move!
-}
-else {
-    state = "idle";
-    speed = 0; // frozen until dialogue finished
-}
+// Cleansed system 
+state = "normal";
+image_blend = c_red;
