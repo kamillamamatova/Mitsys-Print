@@ -1,4 +1,12 @@
-if (!puzzle_solved && !instance_exists(obj_dialogue_lab))
+
+// If the dialogue object is gone AND timer hasn't started yet
+if (!madness_active && !instance_exists(obj_dialogue_lab)) 
+{
+    madness_active = true;
+}
+
+
+if (!puzzle_solved && madness_active)
 {
     madness_timer--;
 

@@ -22,3 +22,8 @@ if (!finished) {
         }
     }
 }
+else 
+{
+    global.move = true;
+    instance_destroy();
+}
