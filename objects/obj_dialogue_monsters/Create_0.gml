@@ -1,3 +1,5 @@
+// narration for monsters
+
 if (!global.narration_monsters) {
 
     // prevent the player from moving to read the dialogue
@@ -23,6 +25,7 @@ if (!global.narration_monsters) {
 
     // mark narration as already shown
     global.narration_monsters = true;
+	global.move = true;
 }
 
 else {
