@@ -517,6 +517,11 @@ global.mist_dialog2 = [
 {
     name: "Dr. Henry",
     msg: "The concentration is so high, the artifact you carry will not aid you..."
+    msg: "Unfortunately , I had to evacuate my lab due to the high concentration of madness mist inside"
+},
+{
+    name: "Dr. Henry",
+    msg: "The concentration is so high, the artifact you carry will not aid you in any way..."
 },
 {
     name: "Dr. Henry",
@@ -533,6 +538,7 @@ global.mist_dialog2 = [
 {
     name: "Dr. Henry",
     msg: "To open the safe all levers must be turned to the right..."
+    msg: "To open the safe all levers must be activated..."
 },
 {
     name: "Dr. Henry",
