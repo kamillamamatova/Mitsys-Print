@@ -327,10 +327,10 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_prologue","path":"rooms/rm_prologue/rm_prologue.yy",},},
     {"roomId":{"name":"rm_exterior","path":"rooms/rm_exterior/rm_exterior.yy",},},
     {"roomId":{"name":"rm_alice_room","path":"rooms/rm_alice_room/rm_alice_room.yy",},},
     {"roomId":{"name":"rm_origin","path":"rooms/rm_origin/rm_origin.yy",},},
-    {"roomId":{"name":"rm_prologue","path":"rooms/rm_prologue/rm_prologue.yy",},},
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_alice_room","path":"rooms/rm_alice_room/rm_alice_room.yy",},},
     {"roomId":{"name":"rm_origin","path":"rooms/rm_origin/rm_origin.yy",},},
