@@ -15,6 +15,7 @@ global.char_colors = {
 	"Cosmo" : c_orange,
 	"Tulip" : c_red,
 	"Civilian" : c_aqua,
+	"Dr. Henry" : c_maroon,
 }
 
 global.char_portraits = {
@@ -25,6 +26,7 @@ global.char_portraits = {
 	"Cosmo" : spr_portrait_cosmo,
 	"Tulip" : spr_portrait_tulip,
 	"Civilian" : spr_portrait_civilian,
+	"Dr. Henry" : spr_portrait_scientist,
 }
 
 global.laugh_cat = [
@@ -436,11 +438,110 @@ global.dock_dialog = [
 },
 {
     name: "Civilian",
-    msg: "Made by Dr . Henry Armitage... before he subdued to the madness..."
+    msg: "Made by Dr . Henry Armitage... before his lab got consumed by the madness..."
 },
 
 {
     name: "Civilian",
     msg: "Urgh Arrgh"
+},
+]
+
+global.mist_dialog = [
+{
+    name: "Dr Henry",
+    msg: "I see you are free enough from the mist to use my Madness Cleansing artifact"
+},
+{
+    name: "Dr Henry",
+    msg: "Please get everyone here safe!"
+},
+]
+
+global.monster = [
+{
+	name: "Civilian",
+	msg: "I see you have the Madness Cleansing artifact!"
+},
+{
+	name: "Civilian",
+	msg: "We could really use your help!"
+},
+{
+	name: "Civilian",
+	msg: "We are trapped by these monsters and the Madness Mist!"
+},
+{
+	name: "Civilian",
+	msg: "If we touch it, we will turn into one of those monsters..."
+},
+{
+	name: "Abigail",
+	msg: "Oh no! I will be glad to help!"
+},
+{
+	name: "Civilian",
+	msg: "Thank you! The artifact should be able to momentaneously cleanse the mist..."
+},
+{
+	name: "Civilian",
+	msg: "We are trying to reach Dr. Henry to retrive his Second Artifact!"
+},
+]
+
+global.mist_dialog2 = [
+{
+    name: "Dr. Henry",
+    msg: "You did it!"
+},
+{
+    name: "Dr. Henry",
+    msg: "I see one of my artifacts has been of great help..."
+},
+{
+    name: "Dr. Henry",
+    msg: "I am trying to reach my second artifact..."
+},
+{
+    name: "Dr. Henry",
+    msg: "One that will end all of this chaos!"
+},
+{
+    name: "Dr. Henry",
+    msg: "Unfortunately..."
+},
+{
+    name: "Dr. Henry",
+    msg: "I had to evacuate my lab due to the high concentration of madness mist inside"
+},
+{
+    name: "Dr. Henry",
+    msg: "The concentration is so high, the artifact you carry will not aid you..."
+    msg: "Unfortunately , I had to evacuate my lab due to the high concentration of madness mist inside"
+},
+{
+    name: "Dr. Henry",
+    msg: "The concentration is so high, the artifact you carry will not aid you in any way..."
+},
+{
+    name: "Dr. Henry",
+    msg: "However, you will still be able to withstand longer than any of us in there... "
+},
+{
+    name: "Dr. Henry",
+    msg: "Please go in there and open the safe where the complimenting artifact is..."
+},
+{
+    name: "Aribel",
+    msg: "I got this, count on me!"
+},
+{
+    name: "Dr. Henry",
+    msg: "To open the safe all levers must be turned to the right..."
+    msg: "To open the safe all levers must be activated..."
+},
+{
+    name: "Dr. Henry",
+    msg: "Good luck!"
 },
 ]
