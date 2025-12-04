@@ -1,5 +1,13 @@
 /// Path Finding AI
 
+
+if (instance_exists(obj_dialogue_monsters)) {
+    speed = 0;
+    path_end();
+    exit;
+}
+
+
 if (path_index != monster_path)
 {
     speed = 0;
@@ -23,7 +31,6 @@ if (place_meeting(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, dire
 	// Collision detected, prevent vertical movement
 	y = 0;
 }
-
 
 x += lengthdir_x(speed, direction);
 y += lengthdir_y(speed, direction);

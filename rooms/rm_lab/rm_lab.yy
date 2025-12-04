@@ -364,6 +364,7 @@
     {"name":"inst_1D0DA1DA","path":"rooms/rm_lab/rm_lab.yy",},
     {"name":"inst_5F6ACE28","path":"rooms/rm_lab/rm_lab.yy",},
     {"name":"inst_7445C589","path":"rooms/rm_lab/rm_lab.yy",},
+    {"name":"inst_7699654B","path":"rooms/rm_lab/rm_lab.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
