@@ -35,6 +35,9 @@ function scr_ch_spawn_for_room(_rm)
 
         case rm_wrong:
             return { x: 400, y: 600 };
+			
+		case rm_final:
+            return { x: 1046, y: 1665 };
 
         default:
 		

@@ -11,5 +11,7 @@ var _ty = target_y;
 
 // Start the transition
 with (obj_room_fade) {
+	flash_white = false; 
+	global.snap_camera_next_room = true;
     start_transition(_rm, _tx, _ty);
 }
