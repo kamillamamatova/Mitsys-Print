@@ -443,8 +443,14 @@ global.dock_dialog = [
 
 {
     name: "Civilian",
-    msg: "Urgh Arrgh"
+    msg: "Urgh Arrgh",
+	msg: "** Walk over the artifact to pick it up. **"
 },
+
+{	name: "Civilian",
+	msg: "Goal: Find the artifact and exit.",
+	msg: "Press 'C' to activate a cleansing pulse that expands around you"
+}
 ]
 
 global.mist_dialog = [
@@ -544,6 +550,6 @@ global.mist_dialog2 = [
 },
 {
     name: "Dr. Henry",
-    msg: "Good luck!"
+    msg: "Good luck!",
 },
 ]

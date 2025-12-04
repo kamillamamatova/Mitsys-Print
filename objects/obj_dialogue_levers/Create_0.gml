@@ -1,10 +1,10 @@
-if (!global.narration_mist) {
+if (!global.narration_levers) {
 
 	// prevent the player from moving to read the dialogue
 	global.move = false;
 	// actual dialogue
-	dialogue = ["** Press 'E' to make the civilians follow you. **",
-				"Goal: Get the civilians safely through the mist to the other side."
+	dialogue = ["Levers",
+				"Goal: Escape the monsters using the cleansing mist and get to the other size"
 	];
 
 	text_index = 0;          // Which line we’re on
@@ -13,7 +13,7 @@ if (!global.narration_mist) {
 	char_timer = 0;          // Timer for typewriter effect
 	finished = false;
 	
-	global.narration_mist = true;
+	global.narration_levers = true;
 	global.move = true;
 }
 
