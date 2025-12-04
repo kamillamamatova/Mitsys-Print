@@ -20,7 +20,7 @@ if (!global.narration_monsters) {
 
     // mark narration as already shown
     global.narration_monsters = true;
-	global.monsters_go = true;
+	global.move = true;
 }
 
 else {
