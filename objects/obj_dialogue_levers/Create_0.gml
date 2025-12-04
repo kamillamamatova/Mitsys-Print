@@ -14,6 +14,7 @@ if (!global.narration_levers) {
 	finished = false;
 	
 	global.narration_levers = true;
+	global.move = true;
 }
 
 else {
