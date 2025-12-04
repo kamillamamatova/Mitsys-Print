@@ -2,9 +2,12 @@ if (!global.narration_levers) {
 
 	// prevent the player from moving to read the dialogue
 	global.move = false;
+	
 	// actual dialogue
-	dialogue = ["Levers",
-				"Goal: Escape the monsters using the cleansing mist and get to the other size"
+	dialogue = ["Oh no I better hurry up before I get consumed by the madness.",
+				"** Press 'R' to turn the levers.",
+				"** All adjacent levers will turn also.",
+				"Goal: Turn all levers turned to the right."
 	];
 
 	text_index = 0;          // Which line we’re on
@@ -14,7 +17,6 @@ if (!global.narration_levers) {
 	finished = false;
 	
 	global.narration_levers = true;
-	global.move = true;
 }
 
 else {
