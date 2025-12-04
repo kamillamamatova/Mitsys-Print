@@ -3,13 +3,50 @@ up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
 accept_key = keyboard_check_pressed(vk_enter);
 
+// Inputs for sliders
+left_key = keyboard_check_pressed(vk_left);
+right_key = keyboard_check_pressed(vk_right);
+
 // Stores number of options in the current menu
-//op_length = array_length(option[menu_level]);
+op_length = array_length(option[menu_level]);
 
 // Moves through the menu
 pos += down_key - up_key;
 if pos >= op_length{ pos = 0};
 if pos < 0{ pos = op_length - 1};
+
+// Slider logic
+if(menu_level == 4){
+	// Option 3 is music volume slider
+	if(pos == 2){
+		if(left_key){
+			global.music_volume -= 0.1;
+		}
+		if(right_key){
+			global.music_volume += 0.1;
+		}
+		
+		// Keeps volume between 0 and 1
+		global.music_volume = clamp(global.music_volume, 0, 1);
+		
+		// Updates playing music immediately if allowed
+		if(global.music_on && global.current_music != noone){
+			audio_sound_gain(global.current_music, global.music_volume, 0);
+		}
+	}
+	
+	// Option 4 is sound volume slider
+	if(pos == 3){
+		if(left_key){
+			global.sound_volume -= 0.1;
+		}
+		if(right_key){
+			global.sound_volume += 0.1;
+		}
+		
+		global.sound_volume = clamp(global.sound_volume, 0, 1);
+	}
+}
 
 // Using the options
 if accept_key{
@@ -157,8 +194,14 @@ if accept_key{
 					global.sound_on = !global.sound_on;
 					break;
 					
-				// Back
+				// Sliders
 				case 2:
+					break;
+				case 3:
+					break;
+					
+				// Back
+				case 4:
 					menu_level = 1;
 					pos = 0;
 					break;
@@ -180,6 +223,12 @@ option[1, 0] = "Windows Size < " + option[2, window_size_pos] + " >";
 option[1, 1] = "Brightness < " + option[3, brightness_pos] + " >";
 option[1, 2] = "Audio < " + option[4, audio_pos] + " >";
 
+// Audio menu dynamic text
+var _mus_p = round(global.music_volume * 100);
+var _snd_p = round(global.sound_volume * 100);
+
 // Updates audio menu text
 option[4, 0] = "Music: " + (global.music_on ? "On" : "Off");
 option[4, 1] = "Sound: " + (global.sound_on ? "On" : "Off");
+option[4, 2] = "Music: < " + string(_mus_p) + "% >";
+option[4, 3] = "Sound: < " + string(_snd_p) + "% >";

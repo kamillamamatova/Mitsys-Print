@@ -18,7 +18,7 @@ if (instance_exists(obj_aribel)) {
     cam_y = lerp(cam_y, target_y, follow_speed);
 }
 
-// Optional: screen shake (safe to leave here even if you never use it)
+
 var shake_x = 0;
 var shake_y = 0;
 

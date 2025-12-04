@@ -1,3 +1,10 @@
+// Initializes globals if game controller isn't present yet
+if(!variable_global_exists("music_volume")) global.music_volume = 1;
+if(!variable_global_exists("sound_volume")) global.sound_volume = 1;
+if(!variable_global_exists("music_on")) global.music_on = true;
+if(!variable_global_exists("sound_on")) global.sound_on = true;
+if(!variable_global_exists("brightness")) global.brightness = 0;
+
 width = 64;
 height = 104;
 
@@ -42,7 +49,9 @@ option[3, 5] = "Back";
 // Audio
 option[4, 0] = "Music: On";
 option[4, 1] = "Sound: On";
-option[4, 2] = "Back";
+option[4, 2] = "Music Vol: 100%";
+option[4, 3] = "Sound Vol: 100%";
+option[4, 4] = "Back";
 
 // Controls
 option[5, 0] = "Back";

@@ -1,6 +1,10 @@
 // function to play music in each room
 
 function play_room_music() {
+	// Initializes vol if it doesn't exist yet
+	if(!variable_global_exists("music_volume")){
+		global.music_volume = 1;
+	}
 
 	// if the music is not on
     if (!global.music_on) return;
@@ -35,11 +39,22 @@ function play_room_music() {
 		// fade out over 0.75 seconds
         audio_sound_gain(global.current_music, 0, 750);
     }
+	
+	// Plays new music
+	var _inst = audio_play_sound(music, 1, true);
+	
+	// Starts at 0 vol
+	audio_sound_gain(_inst, 0, 0);
+	
+	// Fades ito the gloval vol over 0.75 secs
+	audio_sound_gain(_inst, global.music_volume, 750);
 
-    // Play new music at 0 volume
+    /*
+	// Play new music at 0 volume
     audio_play_sound(music, 1, true);
 	// fade in over 0.75 seconds
-    audio_sound_gain(music, 1, 750);
+    audio_sound_gain(music, 1, 750); 
+	*/
 
 	// updating to current room music
     global.current_music = music;
