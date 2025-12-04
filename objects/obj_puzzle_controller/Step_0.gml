@@ -1,4 +1,4 @@
-if (!puzzle_solved)
+if (!puzzle_solved && !instance_exists(obj_dialogue_lab))
 {
     madness_timer--;
 
@@ -14,5 +14,6 @@ if (!puzzle_solved)
     }
 }
 
-draw_text(10,10, "Lever Count: " + string(array_length(levers)));
 
+madness_percent = (1 - (madness_timer / (room_speed * 120))) * 100;
+madness_percent = clamp(madness_percent, 0, 100);
