@@ -458,6 +458,37 @@ global.mist_dialog = [
 },
 ]
 
+global.monster = [
+{
+	name: "Civilian",
+	msg: "I see you have the Madness Cleansing artifact!"
+},
+{
+	name: "Civilian",
+	msg: "We could really use your help!"
+},
+{
+	name: "Civilian",
+	msg: "We are trapped by these monsters and the Madness Mist!"
+},
+{
+	name: "Civilian",
+	msg: "If we touch it, we will turn into one of those monsters..."
+},
+{
+	name: "Abigail",
+	msg: "Oh no! I will be glad to help!"
+},
+{
+	name: "Civilian",
+	msg: "Thank you! The artifact should be able to momentaneously cleanse the mist..."
+},
+{
+	name: "Civilian",
+	msg: "We are trying to reach Dr. Henry to retrive his Second Artifact!"
+},
+]
+
 global.mist_dialog2 = [
 {
     name: "Dr. Henry",
@@ -477,11 +508,15 @@ global.mist_dialog2 = [
 },
 {
     name: "Dr. Henry",
-    msg: "Unfortunately , I had to evacuate my lab due to the high concentration of madness mist inside"
+    msg: "Unfortunately..."
 },
 {
     name: "Dr. Henry",
-    msg: "The concentration is so high, the artifact you carry will not aid you in any way..."
+    msg: "I had to evacuate my lab due to the high concentration of madness mist inside"
+},
+{
+    name: "Dr. Henry",
+    msg: "The concentration is so high, the artifact you carry will not aid you..."
 },
 {
     name: "Dr. Henry",
@@ -497,7 +532,7 @@ global.mist_dialog2 = [
 },
 {
     name: "Dr. Henry",
-    msg: "To open the safe all levers must be activated..."
+    msg: "To open the safe all levers must be turned to the right..."
 },
 {
     name: "Dr. Henry",
