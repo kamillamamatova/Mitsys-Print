@@ -157,6 +157,7 @@
     {"id":{"name":"obj_puzzle_controller","path":"objects/obj_puzzle_controller/obj_puzzle_controller.yy",},"order":9,},
     {"id":{"name":"spr_puz_win_1","path":"sprites/spr_puz_win_1/spr_puz_win_1.yy",},"order":3,},
     {"id":{"name":"spr_portrait","path":"sprites/spr_portrait/spr_portrait.yy",},"order":7,},
+    {"id":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},"order":4,},
     {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},"order":37,},
     {"id":{"name":"spr_border_carpet","path":"sprites/spr_border_carpet/spr_border_carpet.yy",},"order":21,},
     {"id":{"name":"obj_rmB_rose","path":"objects/obj_rmB_rose/obj_rmB_rose.yy",},"order":7,},
@@ -350,6 +351,7 @@
     {"roomId":{"name":"Room17","path":"rooms/Room17/Room17.yy",},},
     {"roomId":{"name":"rm_toMaze","path":"rooms/rm_toMaze/rm_toMaze.yy",},},
     {"roomId":{"name":"rm_cthulu_room","path":"rooms/rm_cthulu_room/rm_cthulu_room.yy",},},
+    {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
