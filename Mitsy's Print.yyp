@@ -111,6 +111,7 @@
     {"id":{"name":"spr_inverted_tallHedges","path":"sprites/spr_inverted_tallHedges/spr_inverted_tallHedges.yy",},"order":54,},
     {"id":{"name":"spooky_items","path":"sprites/spooky_items/spooky_items.yy",},"order":70,},
     {"id":{"name":"obj_mist_goal","path":"objects/obj_mist_goal/obj_mist_goal.yy",},"order":6,},
+    {"id":{"name":"obj_dialogue_lab","path":"objects/obj_dialogue_lab/obj_dialogue_lab.yy",},"order":20,},
     {"id":{"name":"obj_mist_controller","path":"objects/obj_mist_controller/obj_mist_controller.yy",},"order":7,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":46,},
     {"id":{"name":"obj_maze_cheshire","path":"objects/obj_maze_cheshire/obj_maze_cheshire.yy",},"order":0,},
